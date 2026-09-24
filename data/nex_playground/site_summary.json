@@ -1,0 +1,100 @@
+{
+  "fetched_at": "2026-09-23T23:21:54-07:00",
+  "products": [
+    {
+      "id": 8428658688312,
+      "title": "Nex Playground",
+      "handle": "nex-playground",
+      "product_type": "",
+      "vendor": "Nex Playground",
+      "published_at": "2026-04-23",
+      "variants": 3,
+      "price_min": 299.0,
+      "price_max": 299.0,
+      "tags": [
+        "MCF"
+      ]
+    },
+    {
+      "id": 9544030978360,
+      "title": "Replacement Part: Nex Playground Remote Control",
+      "handle": "nex-playground-remote-control-unit",
+      "product_type": "",
+      "vendor": "Nex Playground",
+      "published_at": "2025-07-13",
+      "variants": 1,
+      "price_min": 29.99,
+      "price_max": 29.99,
+      "tags": []
+    },
+    {
+      "id": 9508990648632,
+      "title": "Nex Playground Travel Case",
+      "handle": "nex-playground-travel-case",
+      "product_type": "",
+      "vendor": "Nex Playground",
+      "published_at": "2024-08-16",
+      "variants": 1,
+      "price_min": 24.97,
+      "price_max": 24.97,
+      "tags": [
+        "MCF"
+      ]
+    },
+    {
+      "id": 8764707963192,
+      "title": "Auto-Renewing Play Pass",
+      "handle": "playpass",
+      "product_type": "",
+      "vendor": "Nex Playground",
+      "published_at": "2023-10-11",
+      "variants": 4,
+      "price_min": 49.0,
+      "price_max": 89.0,
+      "tags": [
+        "playpass"
+      ]
+    },
+    {
+      "id": 8432461742392,
+      "title": "12 - months",
+      "handle": "12-months",
+      "product_type": "",
+      "vendor": "Nex Playground",
+      "published_at": "2023-07-12",
+      "variants": 1,
+      "price_min": 89.0,
+      "price_max": 89.0,
+      "tags": []
+    },
+    {
+      "id": 8432461185336,
+      "title": "3 - months",
+      "handle": "3-month",
+      "product_type": "",
+      "vendor": "Nex Playground",
+      "published_at": "2023-07-12",
+      "variants": 1,
+      "price_min": 49.0,
+      "price_max": 49.0,
+      "tags": []
+    }
+  ],
+  "collections": [
+    {
+      "id": 486882017592,
+      "title": "Accessories",
+      "handle": "accessories"
+    },
+    {
+      "id": 439688724792,
+      "title": "Home page",
+      "handle": "frontpage"
+    },
+    {
+      "id": 463267725624,
+      "title": "Play Pass",
+      "handle": "playpass"
+    }
+  ]
+}

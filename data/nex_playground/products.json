@@ -1,0 +1,675 @@
+{
+  "products": [
+    {
+      "id": 8428658688312,
+      "title": "Nex Playground",
+      "handle": "nex-playground",
+      "body_html": "<p><meta charset=\"utf-8\"><meta charset=\"utf-8\"><span>Nex Playground is the active game system that gets your family moving everyday. Get active and bond together with family and friends, learn and grow with physical and mental challenges, and engage in fun fitness for all ages. It's the game system that's good for you.</span><br></p>",
+      "published_at": "2026-04-23T14:44:20-07:00",
+      "created_at": "2023-07-10T13:50:50-07:00",
+      "updated_at": "2026-09-23T23:21:29-07:00",
+      "vendor": "Nex Playground",
+      "product_type": "",
+      "tags": [
+        "MCF"
+      ],
+      "variants": [
+        {
+          "id": 45649345904952,
+          "title": "Starter Pack (5 Games Included)",
+          "option1": "Starter Pack (5 Games Included)",
+          "option2": null,
+          "option3": null,
+          "sku": "NPG-001B-GRN-US",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "299.00",
+          "grams": 907,
+          "compare_at_price": "299.00",
+          "position": 1,
+          "product_id": 8428658688312,
+          "created_at": "2023-07-10T15:22:26-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        },
+        {
+          "id": 45649345937720,
+          "title": "Quarterly Play Pass",
+          "option1": "Quarterly Play Pass",
+          "option2": null,
+          "option3": null,
+          "sku": "NPG-2",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "299.00",
+          "grams": 907,
+          "compare_at_price": "249.00",
+          "position": 2,
+          "product_id": 8428658688312,
+          "created_at": "2023-07-10T15:22:27-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        },
+        {
+          "id": 45649345970488,
+          "title": "Annual Play Pass",
+          "option1": "Annual Play Pass",
+          "option2": null,
+          "option3": null,
+          "sku": "NPG-3",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "299.00",
+          "grams": 907,
+          "compare_at_price": "249.00",
+          "position": 3,
+          "product_id": 8428658688312,
+          "created_at": "2023-07-10T15:22:27-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 53999140143416,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 1,
+          "updated_at": "2025-09-19T08:27:15-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/1_Hero_Playground.jpg?v=1758295635",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999140405560,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 2,
+          "updated_at": "2025-09-19T08:27:15-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/2_Moving_Together.jpg?v=1758295635",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 54442976543032,
+          "created_at": "2025-10-07T07:20:32-07:00",
+          "position": 3,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/Playground_StayActiveYearRound.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999140241720,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 4,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/4.1_Starter_Games.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999140077880,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 5,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/5_All_You_Need.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999140110648,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 6,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/6_Safe_For_Kids.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999139946808,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 7,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/7_Easy_to_Set_Up.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999140176184,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 8,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/8_Loved.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999140208952,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 9,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/9_Packaging.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999140045112,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 10,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/10_Handheld.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "id": 53999139979576,
+          "created_at": "2025-09-19T08:25:43-07:00",
+          "position": 11,
+          "updated_at": "2025-10-07T07:20:44-07:00",
+          "product_id": 8428658688312,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/11_Privacy_Cover.jpg?v=1759846844",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "options": [
+        {
+          "name": "Subscription",
+          "position": 1,
+          "values": [
+            "Starter Pack (5 Games Included)",
+            "Quarterly Play Pass",
+            "Annual Play Pass"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9544030978360,
+      "title": "Replacement Part: Nex Playground Remote Control",
+      "handle": "nex-playground-remote-control-unit",
+      "body_html": "<p><meta charset=\"utf-8\"><strong>Direct replacement part only – not intended for use with any device other than Nex Playground.</strong></p>\n<ul>\n<li>2 x AAA batteries included</li>\n<li>Ship in replacement part packaging</li>\n<li>Ship to addresses in the U.S. only</li>\n</ul>\n<p>While waiting for a new remote to arrive, you might be able to <a href=\"https://help.nexplayground.com/#rp-customer-widget-faq-78c975f8-dd90-4ac0-901d-2d34dfe38bd6\">use your TV remote to control Playground</a>.</p>",
+      "published_at": "2025-07-13T18:51:41-07:00",
+      "created_at": "2024-08-22T20:01:01-07:00",
+      "updated_at": "2026-09-23T23:21:29-07:00",
+      "vendor": "Nex Playground",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 49155102736696,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "NPA-RCU2-GRN-SWP",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "29.99",
+          "grams": 80,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 9544030978360,
+          "created_at": "2024-08-22T20:01:02-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 47735908991288,
+          "created_at": "2024-10-01T09:35:15-07:00",
+          "position": 1,
+          "updated_at": "2024-10-01T09:35:17-07:00",
+          "product_id": 9544030978360,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/IMG_9134.jpg?v=1727800517",
+          "width": 2048,
+          "height": 1366
+        },
+        {
+          "id": 48965046174008,
+          "created_at": "2025-01-21T15:44:31-08:00",
+          "position": 2,
+          "updated_at": "2025-01-21T15:44:33-08:00",
+          "product_id": 9544030978360,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/Nex_Playground_RCU_1.jpg?v=1737503073",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "id": 48965046206776,
+          "created_at": "2025-01-21T15:44:31-08:00",
+          "position": 3,
+          "updated_at": "2025-01-21T15:44:33-08:00",
+          "product_id": 9544030978360,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/Nex_Playground_RCU_2.jpg?v=1737503073",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "id": 48965046141240,
+          "created_at": "2025-01-21T15:44:31-08:00",
+          "position": 4,
+          "updated_at": "2025-01-21T15:44:33-08:00",
+          "product_id": 9544030978360,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/Nex_Playground_RCU_3.jpg?v=1737503073",
+          "width": 1366,
+          "height": 2048
+        },
+        {
+          "id": 48965046239544,
+          "created_at": "2025-01-21T15:44:31-08:00",
+          "position": 5,
+          "updated_at": "2025-01-21T15:44:33-08:00",
+          "product_id": 9544030978360,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/Nex_Playground_RCU_4.jpg?v=1737503073",
+          "width": 2048,
+          "height": 1366
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9508990648632,
+      "title": "Nex Playground Travel Case",
+      "handle": "nex-playground-travel-case",
+      "body_html": "<p style=\"text-align: left;\">Bring Playground with you anywhere with the official Nex Playground Travel Case. Designed to securely transport all system components including Playground console, HDMI cable, power supply and remote control (all sold separately).</p>\n<h3 style=\"text-align: left;\"><strong>Bring the fun everywhere</strong></h3>\n<p style=\"text-align: left;\">The good times don't have to stay at home. Pack up the joy for family get-togethers or friend-fueled play dates and take the laughter and smiles whenever you go.</p>\n<h3 style=\"text-align: left;\"><strong>Perfect fit for Playground</strong></h3>\n<p style=\"text-align: left;\">Designed to fit Playground plus all of the necessary accessories including remote, power cord and HDMI cable.</p>\n<h3 style=\"text-align: left;\"><strong>Secure, durable and lightweight</strong></h3>\n<p style=\"text-align: left;\">Features a lightweight construction with super-soft lining and a sturdy foam frame, plus straps to keep accessories snug while on the go.</p>\n<h3 style=\"text-align: left;\">\n<strong>Specifications</strong><br>\n</h3>\n<ul style=\"text-align: left;\">\n<li>Dimensions - 7.87 x 7.68 x 3.82 inches<!-- notionvc: d913cac6-9398-4c3a-841e-778af9d38812 --> / <meta charset=\"utf-8\">200 x 195 x 97 mm</li>\n<li>Weight - 0.73 lbs / <meta charset=\"utf-8\">333 g</li>\n</ul>\n<h3 style=\"text-align: left;\"><strong>FAQ</strong></h3>\n<ol style=\"text-align: left;\">\n<li>Does it fit version 1 remote (with joystick)? Yes, it does.</li>\n<li>Is it water-resistant or water-repellent? No, it is not.</li>\n<li>How can it be cleaned? Soak a cloth in water with a neutral detergent, wring out any excess water and wipe it clean. Then, wipe it again with a soft, dry cloth. Avoid using thinner, benzene or alcohol.<br>\n</li>\n</ol>\n<p style=\"text-align: left;\"><strong>While supplies last. </strong></p>\n<!---->",
+      "published_at": "2024-08-16T14:03:11-07:00",
+      "created_at": "2024-07-30T13:36:26-07:00",
+      "updated_at": "2026-09-23T23:21:29-07:00",
+      "vendor": "Nex Playground",
+      "product_type": "",
+      "tags": [
+        "MCF"
+      ],
+      "variants": [
+        {
+          "id": 49073153048888,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": "NPA-TC2-GRN-US",
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "24.97",
+          "grams": 333,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 9508990648632,
+          "created_at": "2024-07-30T13:36:27-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 47442289262904,
+          "created_at": "2024-09-16T10:12:03-07:00",
+          "position": 1,
+          "updated_at": "2024-09-16T10:12:05-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/Front.jpg?v=1726506725",
+          "width": 2160,
+          "height": 2160
+        },
+        {
+          "id": 47442924831032,
+          "created_at": "2024-09-16T11:08:04-07:00",
+          "position": 2,
+          "updated_at": "2024-09-16T11:08:06-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/front-2.jpg?v=1726510086",
+          "width": 2160,
+          "height": 2160
+        },
+        {
+          "id": 47442289295672,
+          "created_at": "2024-09-16T10:12:04-07:00",
+          "position": 3,
+          "updated_at": "2024-09-16T10:12:06-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/back.jpg?v=1726506726",
+          "width": 2160,
+          "height": 2160
+        },
+        {
+          "id": 46965461287224,
+          "created_at": "2024-08-12T23:10:59-07:00",
+          "position": 4,
+          "updated_at": "2024-08-12T23:11:00-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/NexPlayground-CarryCase-3.jpg?v=1723529460",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 46965461221688,
+          "created_at": "2024-08-12T23:11:00-07:00",
+          "position": 5,
+          "updated_at": "2024-08-12T23:11:02-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/NexPlayground-CarryCase-10.jpg?v=1723529462",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 46965461352760,
+          "created_at": "2024-08-12T23:11:00-07:00",
+          "position": 6,
+          "updated_at": "2024-08-12T23:11:02-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/NexPlayground-CarryCase-5.jpg?v=1723529462",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 46965461385528,
+          "created_at": "2024-08-12T23:11:00-07:00",
+          "position": 7,
+          "updated_at": "2024-08-12T23:11:02-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/NexPlayground-CarryCase-6.jpg?v=1723529462",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 46965461418296,
+          "created_at": "2024-08-12T23:11:00-07:00",
+          "position": 8,
+          "updated_at": "2024-08-12T23:11:02-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/NexPlayground-CarryCase-7.jpg?v=1723529462",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 46965461451064,
+          "created_at": "2024-08-12T23:11:00-07:00",
+          "position": 9,
+          "updated_at": "2024-08-12T23:11:02-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/NexPlayground-CarryCase-8.jpg?v=1723529462",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 46965461483832,
+          "created_at": "2024-08-12T23:11:00-07:00",
+          "position": 10,
+          "updated_at": "2024-08-12T23:11:02-07:00",
+          "product_id": 9508990648632,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/NexPlayground-CarryCase-9.jpg?v=1723529462",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8764707963192,
+      "title": "Auto-Renewing Play Pass",
+      "handle": "playpass",
+      "body_html": "",
+      "published_at": "2023-10-11T15:47:08-07:00",
+      "created_at": "2023-10-09T21:29:47-07:00",
+      "updated_at": "2026-09-23T23:21:29-07:00",
+      "vendor": "Nex Playground",
+      "product_type": "",
+      "tags": [
+        "playpass"
+      ],
+      "variants": [
+        {
+          "id": 47141938168120,
+          "title": "12-Month / Activation Code",
+          "option1": "12-Month",
+          "option2": "Activation Code",
+          "option3": null,
+          "sku": "",
+          "requires_shipping": false,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "89.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8764707963192,
+          "created_at": "2023-10-09T21:29:47-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        },
+        {
+          "id": 49144462999864,
+          "title": "12-Month / Auto Activate",
+          "option1": "12-Month",
+          "option2": "Auto Activate",
+          "option3": null,
+          "sku": "",
+          "requires_shipping": false,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "89.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 2,
+          "product_id": 8764707963192,
+          "created_at": "2024-08-19T22:40:56-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        },
+        {
+          "id": 47141938135352,
+          "title": "3-Month / Activation Code",
+          "option1": "3-Month",
+          "option2": "Activation Code",
+          "option3": null,
+          "sku": "",
+          "requires_shipping": false,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "49.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 3,
+          "product_id": 8764707963192,
+          "created_at": "2023-10-09T21:29:47-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        },
+        {
+          "id": 49144463032632,
+          "title": "3-Month / Auto Activate",
+          "option1": "3-Month",
+          "option2": "Auto Activate",
+          "option3": null,
+          "sku": "",
+          "requires_shipping": false,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "49.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 4,
+          "product_id": 8764707963192,
+          "created_at": "2024-08-19T22:40:56-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        }
+      ],
+      "images": [
+        {
+          "id": 43750579536184,
+          "created_at": "2023-11-15T12:08:12-08:00",
+          "position": 1,
+          "updated_at": "2023-11-15T12:08:13-08:00",
+          "product_id": 8764707963192,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/playpass_product_6539b9c7-d959-4cf1-994e-14bd808ba761.png?v=1700078893",
+          "width": 756,
+          "height": 850
+        }
+      ],
+      "options": [
+        {
+          "name": "Duration",
+          "position": 1,
+          "values": [
+            "12-Month",
+            "3-Month"
+          ]
+        },
+        {
+          "name": "Type",
+          "position": 2,
+          "values": [
+            "Activation Code",
+            "Auto Activate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8432461742392,
+      "title": "12 - months",
+      "handle": "12-months",
+      "body_html": "",
+      "published_at": "2023-07-12T14:41:54-07:00",
+      "created_at": "2023-07-12T09:31:08-07:00",
+      "updated_at": "2026-09-23T23:21:29-07:00",
+      "vendor": "Nex Playground",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 45668600840504,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": false,
+          "taxable": false,
+          "featured_image": null,
+          "available": true,
+          "price": "89.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8432461742392,
+          "created_at": "2023-07-12T09:31:08-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        }
+      ],
+      "images": [],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8432461185336,
+      "title": "3 - months",
+      "handle": "3-month",
+      "body_html": "",
+      "published_at": "2023-07-12T12:03:57-07:00",
+      "created_at": "2023-07-12T09:30:35-07:00",
+      "updated_at": "2026-09-23T23:21:29-07:00",
+      "vendor": "Nex Playground",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 45668598448440,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": false,
+          "taxable": false,
+          "featured_image": null,
+          "available": true,
+          "price": "49.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8432461185336,
+          "created_at": "2023-07-12T09:30:35-07:00",
+          "updated_at": "2026-09-23T23:21:29-07:00"
+        }
+      ],
+      "images": [],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    }
+  ]
+}

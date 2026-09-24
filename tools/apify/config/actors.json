@@ -1,0 +1,57 @@
+{
+  "_comment": "Apify Actor 配置清单。运行前需设置环境变量 APIFY_API_TOKEN（或 APIFY_TOKEN）。",
+  "_updated": "2026-09-23",
+  "targets": {
+    "nex_meta_ads": {
+      "description": "Nex Playground - Meta 广告库抓取",
+      "actor_id": "curious_coder/facebook-ads-library-scraper",
+      "note": "备选 actor: apify/facebook-ads-scraper",
+      "default_input": {
+        "startUrls": [
+          "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&view_all_page_id=100064144881384&sort_data[direction]=desc&sort_data[mode]=relevancy_monthly_grouped"
+        ],
+        "count": 200,
+        "scrapeAdDetails": true,
+        "period": ""
+      },
+      "output_file": "data/nex_playground/meta_ads.json"
+    },
+    "nex_facebook_page": {
+      "description": "Nex Playground - Facebook 主页帖子抓取",
+      "actor_id": "apify/facebook-pages-scraper",
+      "default_input": {
+        "startUrls": [{ "url": "https://www.facebook.com/nexplayground/" }],
+        "resultsLimit": 100,
+        "scrapeComments": false
+      },
+      "output_file": "data/nex_playground/facebook_page.json"
+    },
+    "nex_independent_site": {
+      "description": "Nex Playground - 独立站（Shopify JSON）抓取",
+      "actor_id": null,
+      "note": "独立站数据走 Shopify 公开 JSON 端点，无需 Apify；见 tools/fetch_shopify_site.py",
+      "endpoint": "https://shop.nexplayground.com/products.json?limit=250",
+      "output_file": "data/nex_playground/products.json"
+    },
+    "tiktok_affiliate_creator": {
+      "description": "TikTok Affiliate 达人数据抓取（归档项，仅保留配置）",
+      "actor_id": "clockworks/free-tiktok-scraper",
+      "default_input": {
+        "scrapeType": "hashtag",
+        "resultsPerPage": 50,
+        "profileScrapeSections": ["videos"],
+        "shouldDownloadVideos": false
+      },
+      "output_file": "data/tiktok/affiliate_creators.json"
+    },
+    "facebook_creator_search": {
+      "description": "Facebook 达人/主页搜索抓取",
+      "actor_id": "apify/facebook-pages-scraper",
+      "default_input": {
+        "startUrls": [],
+        "resultsLimit": 50
+      },
+      "output_file": "data/facebook/creators.json"
+    }
+  }
+}

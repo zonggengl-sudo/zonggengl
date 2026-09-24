@@ -1,0 +1,41 @@
+{
+  "_comment": "2026-09-23 夜间批处理：Shopify 文章统计表「上线时间」修正审计。old 为修正前（人工录入的整点/刻钟近似值），new 为站点 JSON-LD datePublished 精确值（Asia/Shanghai）。",
+  "run_at": "2026-09-23 23:35 PDT",
+  "table": "KYNIQO > 广告相关 > Shopify文章统计（blog posts） > 文章统计",
+  "base_token": "GEkAbl2knauH1ps1uJxcJ8rMnCm",
+  "table_id": "tblv6a9UodQ0Ca7I",
+  "source": "kyniqo.com sitemap_blogs_1.xml + 每篇 JSON-LD datePublished",
+  "articles_total": 30,
+  "corrected": 24,
+  "already_exact": 6,
+  "corrections": [
+    ["best-active-gaming-console-for-kids", "2026-08-19 17:00", "2026-08-19 17:57"],
+    ["what-replaced-the-xbox-kinect", "2026-08-20 11:00", "2026-08-20 10:58"],
+    ["indoor-activities-burn-kids-energy", "2026-08-21 12:00", "2026-08-21 12:01"],
+    ["blog-kids-game-console-camera-privacy", "2026-08-21 13:09", "2026-08-21 13:06"],
+    ["movement-games-for-sensory-kids", "2026-08-21 14:00", "2026-08-21 14:33"],
+    ["do-active-video-games-count-as-exercise", "2026-08-21 14:50", "2026-08-21 14:47"],
+    ["how-much-screen-time-for-kids-by-age", "2026-08-24 14:34", "2026-08-24 14:38"],
+    ["screen-time-and-kids-sleep", "2026-08-24 15:27", "2026-08-24 15:17"],
+    ["screen-free-activities-for-kids", "2026-08-24 16:01", "2026-08-24 16:12"],
+    ["how-to-get-kids-to-exercise", "2026-08-24 16:37", "2026-08-24 16:43"],
+    ["family-game-night-ideas-for-all-ages", "2026-08-24 16:52", "2026-08-24 16:55"],
+    ["indoor-birthday-party-games-for-kids-a-two-hour-plan", "2026-08-24 17:02", "2026-08-24 17:09"],
+    ["how-to-get-siblings-to-play-together", "2026-08-24 17:30", "2026-08-24 17:37"],
+    ["homeschool-pe-ideas-at-home-a-real-plan-not-a-list-of-games", "2026-08-24 17:44", "2026-08-24 17:47"],
+    ["blogs-active-play-nex-playground-alternatives", "2026-08-26 09:30", "2026-08-26 10:18"],
+    ["ring-fit-adventure-alternatives", "2026-08-26 09:45", "2026-08-26 10:33"],
+    ["exercise-games-for-seniors-which-ones-actually-build-balance", "2026-08-26 10:00", "2026-08-26 10:49"],
+    ["workout-games-that-dont-feel-like-exercise", "2026-08-26 10:15", "2026-08-26 11:10"],
+    ["dance-games-for-kids", "2026-08-26 10:30", "2026-08-26 11:31"],
+    ["how-ai-motion-tracking-works", "2026-08-26 10:45", "2026-08-26 11:47"],
+    ["gross-motor-skills-by-age-what-most-children-can-do", "2026-08-26 11:00", "2026-08-26 11:55"],
+    ["summer-break-activities-for-kids-at-home", "2026-08-26 11:15", "2026-08-26 14:07"],
+    ["sleepover-games-for-kids", "2026-08-26 11:30", "2026-08-26 14:45"],
+    ["kids-exercise-equipment-for-home", "2026-08-26 11:45", "2026-08-26 14:56"]
+  ],
+  "notes": [
+    "表内原有 30 条记录的链接单元格损坏：markdown 链接指向 https://kyniqo.com 根域，真实文章路径只存在于显示文本中（用 › 分隔）。同步脚本已兼容该格式，另加标题模糊匹配兜底（motion-game-console-no-subscription 站点现名带 with）。",
+    "修正后 30/30 与线上完全一致，再次 dry-run 差异为 0。"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "collections": [
+    {
+      "id": 486882017592,
+      "title": "Accessories",
+      "handle": "accessories",
+      "description": "",
+      "published_at": "2025-01-21T14:42:44-08:00",
+      "updated_at": "2026-09-23T04:09:40-07:00",
+      "image": null,
+      "products_count": 7
+    },
+    {
+      "id": 439688724792,
+      "title": "Home page",
+      "handle": "frontpage",
+      "description": null,
+      "published_at": "2023-03-09T16:14:31-08:00",
+      "updated_at": "2026-09-11T07:34:44-07:00",
+      "image": null,
+      "products_count": 0
+    },
+    {
+      "id": 463267725624,
+      "title": "Play Pass",
+      "handle": "playpass",
+      "description": "",
+      "published_at": "2023-10-09T21:24:25-07:00",
+      "updated_at": "2026-09-22T10:25:02-07:00",
+      "image": null,
+      "products_count": 6
+    }
+  ]
+}
