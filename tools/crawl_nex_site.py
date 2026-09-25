@@ -31,15 +31,16 @@ BOILER = re.compile(r"^(Shop|Learn|Support|About|Legal|Cart|Menu|Close|Search)\b
 
 
 def fetch(url):
-    for attempt in range(3):
+    # 目标站对并发敏感（8 线程会触发限流导致大量失败），因此重试用较长退避
+    for attempt in range(4):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=45) as r:
                 return url, r.geturl(), r.read().decode("utf-8", "replace")
         except Exception as e:
-            if attempt == 2:
+            if attempt == 3:
                 return url, url, f"__ERR__{e}"
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(2.0 * (attempt + 1))
     return url, url, "__ERR__"
 
 
@@ -105,7 +106,8 @@ def main():
     print(f"[i] crawling {len(urls)} marketing pages", file=sys.stderr)
 
     rows = []
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    # 并发压到 3：该站对并发敏感，8 线程会被限流（实测 83 页挂 33 页）
+    with ThreadPoolExecutor(max_workers=3) as ex:
         for url, final_url, doc in ex.map(lambda u: fetch(u), urls):
             path = url.replace(ORIGIN, "") or "/"
             title, h1, copy = extract(url, final_url, doc)
@@ -120,12 +122,47 @@ def main():
                 "error": err,
             })
 
-    ok = [r for r in rows if r["status"] == "OK"]
-    print(f"[i] ok={len(ok)} err={len(rows)-len(ok)}", file=sys.stderr)
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / "site_pages.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2),
-                                         encoding="utf-8")
-    print(f"[v] -> {OUT/'site_pages.json'}", file=sys.stderr)
+    main_file = OUT / "site_pages.json"
+
+    # 安全合并：本次失败的页面沿用上次成功内容，绝不让残缺结果覆盖完整数据
+    prev_ok = {}
+    if main_file.exists():
+        try:
+            prev = json.loads(main_file.read_text(encoding="utf-8"))
+            prev_ok = {r["页面链接"]: r for r in prev if r.get("status") == "OK"}
+        except Exception:
+            prev_ok = {}
+
+    for r in rows:
+        if r["status"] != "OK" and r["页面链接"] in prev_ok:
+            p = prev_ok[r["页面链接"]]
+            r.update({"标题": p.get("标题", ""), "页面": p.get("页面", ""),
+                      "内容类型": p.get("内容类型", ""), "文案内容": p.get("文案内容", ""),
+                      "status": "CACHED", "error": ""})
+
+    ok = [r for r in rows if r["status"] == "OK"]
+    cached = [r for r in rows if r["status"] == "CACHED"]
+    failed = [r for r in rows if r["status"] == "ERROR"]
+    print(f"[i] 本次成功={len(ok)} 沿用上次={len(cached)} 失败={len(failed)}", file=sys.stderr)
+
+    def dump_partial(reason):
+        stamp = time.strftime("%Y%m%d-%H%M%S")
+        pf = OUT / f"site_pages_partial_{stamp}.json"
+        pf.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[!] {reason} → 未覆盖原文件，残缺结果存 {pf.name}", file=sys.stderr)
+
+    # 全军覆没且无历史数据 → 绝不覆盖
+    if not ok and not cached:
+        dump_partial("全部抓取失败且无历史数据")
+        sys.exit(2)
+    # 成功率低于历史一半 → 判定为异常，不覆盖
+    if prev_ok and len(ok) < len(prev_ok) * 0.5:
+        dump_partial(f"成功率过低（{len(ok)}/{len(urls)}，历史 {len(prev_ok)} 条）")
+        sys.exit(2)
+
+    main_file.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[v] -> {main_file}", file=sys.stderr)
 
 
 if __name__ == "__main__":
