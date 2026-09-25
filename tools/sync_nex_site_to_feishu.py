@@ -30,7 +30,8 @@ TABLE_ID = "tblIXNJ1BvTYEe4y"
 ORIGIN = "https://www.nexplayground.com"
 MAX_COPY = 8000  # feishu text cell is generous; keep payload sane
 
-OPTIONS = ["首页文案", "游戏目录", "产品介绍", "订阅服务", "购买页面", "用户故事", "游戏详情"]
+OPTIONS = ["首页文案", "游戏目录", "产品介绍", "订阅服务", "购买页面", "用户故事", "游戏详情",
+           "品牌", "法务/合规"]  # 后两项于 2026-09-25 追加，用于收纳 about/privacy 等品牌与法务页面
 
 
 def lark(*args):
@@ -58,6 +59,16 @@ def classify(path):
         return "产品介绍", "产品介绍"
     if head in ("community",):
         return "用户故事", "用户故事"
+    # 法务/合规类（2026-09-25 新增）
+    if head in ("privacy", "refund", "trust", "safety-and-privacy") or \
+            path.startswith("/learn/compliance-regulatory"):
+        return "法务/合规", "法务合规"
+    # 品牌类（2026-09-25 新增）
+    if head in ("about", "careers", "contact", "mission", "playground-for-good", "japan-2026"):
+        return "品牌", "品牌"
+    # 门店查询归入购买相关
+    if head == "find-in-stores":
+        return "购买页面", "门店查询"
     return None, head
 
 
@@ -67,17 +78,27 @@ def main():
     pages = [p for p in pages if p.get("status") == "OK" and p.get("文案内容")]
 
     # existing rows -> set of URLs
+    # 显式放大 limit（默认仅 100，json 格式上限 200）；读取失败或为空必须中止，
+    # 否则 existing 为空会把全部页面当成新增重复插入
     res = lark("base", "+record-list", "--base-token", BASE_TOKEN,
-               "--table-id", TABLE_ID, "--format", "json")
+               "--table-id", TABLE_ID, "--limit", "200", "--format", "json")
+    if not res.get("ok"):
+        print("[x] feishu read failed, abort to avoid duplicate insert:",
+              res.get("error"), file=sys.stderr)
+        sys.exit(1)
+    d = res["data"]
+    if d.get("has_more"):
+        print("[!] 记录数超过 200 且仍有更多，去重可能不完整，请改用 ndjson 分页", file=sys.stderr)
     existing = set()
-    if res.get("ok"):
-        d = res["data"]
-        names = d.get("fields", [])
-        idx = names.index("页面链接") if "页面链接" in names else 0
-        for row in d["data"]:
-            m = re.search(r"https?://[^\s\)\]›]+", (row[idx] or "").replace("\u203a", "/"))
-            if m:
-                existing.add(m.group(0).rstrip("/"))
+    names = d.get("fields", [])
+    idx = names.index("页面链接") if "页面链接" in names else 0
+    for row in d.get("data", []):
+        m = re.search(r"https?://[^\s\)\]›]+", (row[idx] or "").replace("\u203a", "/"))
+        if m:
+            existing.add(m.group(0).rstrip("/"))
+    if not existing:
+        print("[x] 未读到任何已有记录，中止以避免重复写入", file=sys.stderr)
+        sys.exit(1)
     print(f"[i] crawled pages: {len(pages)} | feishu existing urls: {len(existing)}")
 
     new, skipped = [], []

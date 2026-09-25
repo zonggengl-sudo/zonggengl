@@ -81,12 +81,15 @@ def title_index(live):
 
 
 def load_feishu():
+    # 显式放大 limit（默认仅 100，json 格式上限 200），避免去重漏看已有记录
     res = lark("base", "+record-list", "--base-token", BASE_TOKEN,
-               "--table-id", TABLE_ID, "--format", "json")
+               "--table-id", TABLE_ID, "--limit", "200", "--format", "json")
     if not res.get("ok"):
         print("[x] feishu read failed:", res.get("error"), file=sys.stderr)
         sys.exit(1)
     d = res["data"]
+    if d.get("has_more"):
+        print("[!] 记录数超过 200 且仍有更多，去重可能不完整，请改用 ndjson 分页", file=sys.stderr)
     recs = []
     for rid, row in zip(d["record_id_list"], d["data"]):
         recs.append({"record_id": rid, "title": row[0], "url": row[1], "time": row[2]})
