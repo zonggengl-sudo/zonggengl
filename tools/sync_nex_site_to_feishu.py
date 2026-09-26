@@ -12,8 +12,14 @@ Existing rows are matched on URL; only genuinely new pages are created.
 Content type is mapped from the URL path onto the table's existing options.
 
 Usage:
-    python3 sync_nex_site_to_feishu.py           # dry-run
-    python3 sync_nex_site_to_feishu.py --apply   # create missing records
+    python3 sync_nex_site_to_feishu.py                    # dry-run (new only)
+    python3 sync_nex_site_to_feishu.py --apply            # create missing records
+    python3 sync_nex_site_to_feishu.py --refresh          # + report drift on existing rows
+    python3 sync_nex_site_to_feishu.py --apply --refresh  # create new + refresh drifted copy
+
+--refresh only rewrites the 文案内容 cell of already-synced rows whose copy changed
+on the live site (2026-09-26: site copy drifts, e.g. BoxFlow gained "Zumba Fitness
+Party"). It never touches 标题/页面/内容类型/图片附件, so manual curation is safe.
 """
 import json
 import os
@@ -72,8 +78,14 @@ def classify(path):
     return None, head
 
 
+def norm(s):
+    """Normalise for comparison: Feishu and the crawler both store plain text."""
+    return (s or "").replace("\r\n", "\n").strip()
+
+
 def main():
     apply = "--apply" in sys.argv
+    refresh = "--refresh" in sys.argv
     pages = json.loads((DATA / "site_pages.json").read_text(encoding="utf-8"))
     pages = [p for p in pages if p.get("status") == "OK" and p.get("文案内容")]
 
@@ -89,13 +101,22 @@ def main():
     d = res["data"]
     if d.get("has_more"):
         print("[!] 记录数超过 200 且仍有更多，去重可能不完整，请改用 ndjson 分页", file=sys.stderr)
-    existing = set()
+    # url -> {rid, title, copy}; record_id_list is index-aligned with data rows
+    existing = {}
     names = d.get("fields", [])
+    rids = d.get("record_id_list") or [None] * len(d.get("data", []))
     idx = names.index("页面链接") if "页面链接" in names else 0
-    for row in d.get("data", []):
+    ititle = names.index("标题") if "标题" in names else None
+    icopy = names.index("文案内容") if "文案内容" in names else None
+    for rid, row in zip(rids, d.get("data", [])):
         m = re.search(r"https?://[^\s\)\]›]+", (row[idx] or "").replace("\u203a", "/"))
-        if m:
-            existing.add(m.group(0).rstrip("/"))
+        if not m:
+            continue
+        existing[m.group(0).rstrip("/")] = {
+            "rid": rid,
+            "title": row[ititle] if ititle is not None else "",
+            "copy": row[icopy] if icopy is not None else "",
+        }
     if not existing:
         print("[x] 未读到任何已有记录，中止以避免重复写入", file=sys.stderr)
         sys.exit(1)
@@ -126,6 +147,29 @@ def main():
         json.dumps(new, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n[v] payload -> {DATA/'feishu_site_pending.json'}")
 
+    # ---- refresh: detect copy drift on already-synced rows ----
+    drift, empty = [], []
+    if refresh:
+        for p in pages:
+            url = p["页面链接"].rstrip("/")
+            ex = existing.get(url)
+            if not ex:
+                continue
+            live = p["文案内容"][:MAX_COPY]
+            if not norm(ex["copy"]):
+                empty.append(url)  # row has no copy stored; fill it from live crawl
+                drift.append({"rid": ex["rid"], "url": url, "文案内容": live})
+            elif norm(ex["copy"]) != norm(live):
+                drift.append({"rid": ex["rid"], "url": url, "文案内容": live})
+        print(f"\n== REFRESH ==  drifted(existing): {len(drift)} (of which empty->fill: {len(empty)})")
+        for x in drift[:15]:
+            print(f"  ~ {x['url'].replace(ORIGIN, '') or '/'}")
+        if len(drift) > 15:
+            print(f"  ... and {len(drift)-15} more")
+        (DATA / "feishu_site_updates.json").write_text(
+            json.dumps(drift, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[v] update payload -> {DATA/'feishu_site_updates.json'}")
+
     if not apply:
         print("[i] dry-run; pass --apply to write")
         return
@@ -142,6 +186,21 @@ def main():
         else:
             print(f"  [x] batch {i//20} failed: {str(r.get('error'))[:300]}", file=sys.stderr)
     print(f"[v] created {created}/{len(new)} records in 独立站内容")
+
+    if not drift:
+        return
+    updated = 0
+    for i in range(0, len(drift), 50):  # batch-update caps at 200; 50 keeps payload small
+        chunk = drift[i:i + 50]
+        payload = {"update_records": {x["rid"]: {"文案内容": x["文案内容"]} for x in chunk}}
+        r = lark("base", "+record-batch-update", "--base-token", BASE_TOKEN,
+                 "--table-id", TABLE_ID, "--json",
+                 json.dumps(payload, ensure_ascii=False), "--format", "json")
+        if r.get("ok"):
+            updated += len(chunk)
+        else:
+            print(f"  [x] update batch {i//50} failed: {str(r.get('error'))[:300]}", file=sys.stderr)
+    print(f"[v] refreshed {updated}/{len(drift)} rows' 文案内容 in 独立站内容")
 
 
 if __name__ == "__main__":
