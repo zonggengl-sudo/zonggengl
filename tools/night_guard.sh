@@ -60,6 +60,7 @@ status() {
   if is_ac; then pw="AC Power ✅"; else pw="Battery ⚠️"; fi
   if [ -n "$(running_pid)" ]; then cf="运行中 pid=$(running_pid)"; else cf="未运行"; fi
   echo "供电        : $pw"
+  echo "电量        : $(pmset -g batt 2>/dev/null | grep -oE '[0-9]+%' | head -1 || echo 未知)$( [ "$pw" = "Battery ⚠️" ] && echo "   ⚠️ 低于 25% 时 power_check.sh 会要求紧急收尾" )"
   echo "caffeinate  : $cf"
   echo "防睡断言    : PreventSystemSleep=$(assertion)  (1=安全, 0=未持有)"
   echo "睡眠定时器  : $(pmset -g | awk '/^ sleep/{print $2}')  (0=不会自动睡)"
