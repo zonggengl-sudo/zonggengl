@@ -1,0 +1,141 @@
+
+======================================================================
+### /contact
+old_len=2349 new_len=2349 delta=+0
+[replace]
+  - 'can'
+  + 'do'
+[replace]
+  - 'turn o'
+  + 'setup Playground'
+[insert]
+  - ''
+  + 'or the'
+[replace]
+  - 'auto-renew'
+  + 'irst time? Please see: How do I setup Playground'
+[replace]
+  - 'my Play Pass'
+  + 'the first time'
+[delete]
+  - "Please see: How do I cancel auto-renew for Play Pass?\nYou can check your Play Pass status and when it is due for renewal by going to Top Menu > Play Pass on Nex Playground. You will receive a reminder email 3 days before your renewal date.\nNote: Play Pass purchased from Amazon or retailers are one-time Play Passes and they don't auto-renew.\nHow do I setup Playground for the first time? Please see: How do I setup Playground for the first time?\nHow long does it take to get my Play Pass activation code? Code delivery typically takes 30 minutes or less after purchase on Nex Playground website, see…"
+  + ''
+[insert]
+  - ''
+  + '.\nI am not seeing the new games on my Nex Playground Please see: I am not seeing the latest game release/not receiving game updates on my Playground ↗︎\nHow long does it take to get my Play Pass activation code? Code delivery typically takes 30 minutes or less after purchase on Nex Playground website, see this help article if you have not received your activation code after 60 minutes.\nPlay Pass purchased from Amazon may take up to 48 hours to deliver a code.\nIf you already have Nex Playground unboxed, buying Play Pass directly on your Nex Playground by scanning the on-screen QR code will give …'
+
+======================================================================
+### /find-in-stores
+old_len=2943 new_len=2937 delta=-6
+[delete]
+  - '1.'
+  + ''
+[delete]
+  - '1.'
+  + ''
+
+======================================================================
+### /safety-and-privacy
+old_len=3703 new_len=3703 delta=+0
+[insert]
+  - ''
+  + 'If there’s no one watching, why is there a camera cover? The camera cover is really just for extra peace of mind when playtime is over. Plus, we think the cube looks pretty cute with it on.'
+[delete]
+  - ".\nIf there's no one watching, why is there a camera cover? The camera cover is really just for extra peace of mind when playtime is over. Plus, we think the cube looks pretty cute with it on"
+  + ''
+[replace]
+  - 'does motion tracking work without recording video data? Al motion tracking happens locally on the device. Video data is not processed on the cloud. Some games temporarily record video for local replay and highlights (Move and Groove with Grover and Party Fowl, for example),'
+  + 'can I'
+[replace]
+  - "ut those videos are never saved.\nWhy aren't there any parental controls? That's because all of our games and content are created for kids first.\nThey're not only safe, but also designed to be active and good for you. So, there's no need for traditional parental controls.\nHowever, if there's a game you'd rather your kids not play, you do have the ability to hide it. We know how it goes.\nHow can I be sure it'"
+  + 'e sure it’'
+[replace]
+  - "'"
+  + '’'
+[replace]
+  - '-'
+  + '—'
+[insert]
+  - ''
+  + '.\nHow does motion tracking work without recording video data? AI motion tracking happens locally on the device. Video data is not processed on the cloud. Some games temporarily record video for local replay and highlights (Move and Groove with Grover and Party Fowl, for example), but those videos are never saved.\nWhy aren’t there any parental controls? That’s because all of our games and content are created for kids first.\nThey’re not only safe, but also designed to be active and good for you. So, there’s no need for traditional parental controls.\nHowever, if there’s a game you’d rather your k…'
+
+======================================================================
+### /shop/nex-playground
+old_len=4609 new_len=4810 delta=+201
+[replace]
+  - 'ayground uses the magic of A'
+  + 'ease see: How do'
+[replace]
+  - 'to follow your movements with its built'
+  + 'setup Playground for the first time?\nWhat games are included? Each Nex Playground comes with a Starter Pack of 5 games included: Fruit Ninja, Whack'
+[replace]
+  - 'in wide'
+  + 'a'
+[replace]
+  - 'angle camera. Play with simpl'
+  + 'Mole Delux'
+[replace]
+  - 'natural gestures. No controllers or clunky wearables'
+  + 'Party Fowl'
+[replace]
+  - 'just a few, but critical patents make it all work seamlessly'
+  + 'Go Keeper and Starri'
+[delete]
+  - 'What games are included? Playground uses the magic of A'
+  + ''
+[replace]
+  - 'to follow your mo'
+  + 'f you’d like access to the full catalog as well as new content dropping e'
+[replace]
+  - 'ments with its built-in wide-angle camera'
+  + 'ry month, consider adding a Play Pass'
+[replace]
+  - 'with simple, natural gestures. No controllers or clunky wearables, just a few, but critical patents make it all work seamlessly'
+  + 'Pass is an optional purchase'
+[replace]
+  - 'How does it work with my TV setup'
+  + 'See: What is a Play Pass'
+[replace]
+  - 'Playground uses the magic of AI to follow your movements with its'
+  + 'for'
+[replace]
+  - 'ilt-in wide-angle camera. Play with simple, natural gestures. No controllers or clunky wearables, just a few, but critical patents make it all work seamlessly.\nWhat age is this good for? Playground uses the magic of AI to follow your movements with its built-in wide-angle camera. Play with simple, natural gestures. No controllers or clunky wearables, just a few, but critical patents make it all work seamlessly.\nHow much space do I need? Playground uses the magic of AI to follow your movements with its built-in wide-angle camera. Play with simple, natural gestures. No controllers or clunky wear…'
+  + 'ying options and their differences'
+[replace]
+  - '1'
+  + 'What age is this good for? We recommend 5 and up'
+[insert]
+  - ''
+  + 'For 3 and 4 year olds, they will be able to enjoy a bigger variety of the games if a grown-up or older sibling plays with them.\nOur preschool catalog is growing so there will be more games for them. In addition to "Peppa Pig: Jump & Giggle", "Elmo Says" and "Elmo & Abby\'s Magical Letter Hunt" with Sesame Workshop, we now have "Gabby\'s Dollhouse: A-meow-zing Moves", "Care Bears: Rainbow Ride" and "Bluey: Bust-a-Move", all great for preschool age.\nPlease join our Nex Playground Community to learn more about new games on the roadmap.\nHow much space do I need? We recommend having a minimum area of…'
+[delete]
+  - '1.'
+  + ''
+
+======================================================================
+### /shop/playpass
+old_len=3286 new_len=3280 delta=-6
+[delete]
+  - '1.'
+  + ''
+[delete]
+  - '1.'
+  + ''
+
+======================================================================
+### /shop/travel-case
+old_len=2640 new_len=2640 delta=+0
+[replace]
+  - 'can'
+  + 'do'
+[replace]
+  - 'turn off auto-renew for my Play Pass'
+  + 'setup Playground for the first time'
+[replace]
+  - 'cancel auto-renew for Play Pass'
+  + 'setup Playground for the first time'
+[delete]
+  - "You can check your Play Pass status and when it is due for renewal by going to Top Menu > Play Pass on Nex Playground. You will receive a reminder email 3 days before your renewal date.\nNote: Play Pass purchased from Amazon or retailers are one-time Play Passes and they don't auto-renew.\nHow do I setup Playground for the first time? Please see: How do I setup Playground for the first time?\nHow long does it take to get my Play Pass activation code? Code delivery typically takes 30 minutes or less after purchase on Nex Playground website, see this help article if you have not received your activ…"
+  + ''
+[insert]
+  - ''
+  + '.\nI am not seeing the new games on my Nex Playground Please see: I am not seeing the latest game release/not receiving game updates on my Playground ↗︎\nHow long does it take to get my Play Pass activation code? Code delivery typically takes 30 minutes or less after purchase on Nex Playground website, see this help article if you have not received your activation code after 60 minutes.\nPlay Pass purchased from Amazon may take up to 48 hours to deliver a code.\nIf you already have Nex Playground unboxed, buying Play Pass directly on your Nex Playground by scanning the on-screen QR code will give …'
