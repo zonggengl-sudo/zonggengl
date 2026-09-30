@@ -21,7 +21,17 @@ ts() { date '+%F %T'; }
 log() { echo "$(ts) $*" >> "$LOG"; }
 
 is_ac() { pmset -g ps | grep -q "AC Power" && return 0 || return 1; }
-assertion() { pmset -g assertions 2>/dev/null | awk '/PreventSystemSleep/{print $2; exit}'; }
+# 汇总行的 PreventSystemSleep 在电池档会显示 0（`-s` 仅在 AC 生效），
+# 但 caffeinate 明细里实际持有该断言（asserting forever）。只看汇总会误判，
+# 所以以"caffeinate 进程是否活着"为准，并附上汇总值备查。
+assertion() {
+  if pgrep -x caffeinate >/dev/null 2>&1; then
+    echo "1(caffeinate持有)"
+  else
+    echo "0(无防睡进程)"
+  fi
+}
+assertion_raw() { pmset -g assertions 2>/dev/null | awk '/^   PreventSystemSleep/{print $2; exit}'; }
 running_pid() {
   [ -f "$PIDFILE" ] || return 1
   local p; p=$(cat "$PIDFILE" 2>/dev/null)
@@ -33,8 +43,12 @@ start() {
   if running_pid >/dev/null; then
     log "already running pid=$(running_pid)"
   else
-    nohup caffeinate -siu >/dev/null 2>&1 &
-    echo $! > "$PIDFILE"
+    # 必须脱离当前进程组：直接 `nohup ... &` 启动的 caffeinate 会随调用方
+    # shell 退出而被回收（2026-09-30 实测：下一个调用里进程已死，防睡形同虚设）。
+    # 用 Python 的 start_new_session=True（底层 setsid）真正脱离会话。
+    python3 -c 'import subprocess,sys; subprocess.Popen(["caffeinate","-siu"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)' 2>/dev/null
+    sleep 1
+    echo "$(pgrep -x caffeinate | tail -1)" > "$PIDFILE"
   fi
   sleep 2
   if is_ac; then
@@ -62,7 +76,7 @@ status() {
   echo "供电        : $pw"
   echo "电量        : $(pmset -g batt 2>/dev/null | grep -oE '[0-9]+%' | head -1 || echo 未知)$( [ "$pw" = "Battery ⚠️" ] && echo "   ⚠️ 低于 25% 时 power_check.sh 会要求紧急收尾" )"
   echo "caffeinate  : $cf"
-  echo "防睡断言    : PreventSystemSleep=$(assertion)  (1=安全, 0=未持有)"
+  echo "防睡断言    : $(assertion)  （pmset 汇总值=$(assertion_raw)；电池档下汇总值恒为 0 属正常，以 caffeinate 进程为准）"
   echo "睡眠定时器  : $(pmset -g | awk '/^ sleep/{print $2}')  (0=不会自动睡)"
   echo "standby     : $(pmset -g | awk '/^ standby/{print $2}')"
   echo "powernap    : $(pmset -g | awk '/^ powernap/{print $2}')"
