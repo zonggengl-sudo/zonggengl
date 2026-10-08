@@ -29,7 +29,8 @@ if "nexplayground" in HOST:
     SLUG = "nexplayground"
 
 
-def get(url, retries=2):
+def get(url, retries=4):
+    """429 友好重试：Shopify 对并发敏感，命中限流时按 3/6/12/24s 退避。"""
     for i in range(retries + 1):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -38,7 +39,11 @@ def get(url, retries=2):
         except Exception as e:
             if i == retries:
                 return f"__ERR__{e}"
-            time.sleep(1.5 * (i + 1))
+            msg = str(e)
+            if "429" in msg or "Too Many" in msg or re.search(r"\b5\d\d\b", msg):
+                time.sleep(3 * (2 ** i))     # 限流/服务端错误：长退避
+            else:
+                time.sleep(1.5 * (i + 1))
     return "__ERR__"
 
 
@@ -81,7 +86,7 @@ def main():
     arts = article_urls()
     print(f"[i] {len(arts)} articles found in sitemap", file=sys.stderr)
     rows = []
-    with ThreadPoolExecutor(max_workers=6) as ex:
+    with ThreadPoolExecutor(max_workers=2) as ex:   # Shopify 限流敏感，保持低并发
         futs = {ex.submit(get, url): (blog, handle, url) for blog, handle, url in arts}
         for f in futs:
             blog, handle, url = futs[f]
