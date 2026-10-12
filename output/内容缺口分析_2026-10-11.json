@@ -1,0 +1,764 @@
+{
+  "date": "2026-10-11",
+  "blogs": 30,
+  "games": 62,
+  "gap": [
+    {
+      "name": "TMNT: Rooftop Mayhem",
+      "slug": "teenage-mutant-ninja-turtles-rooftop-mayhem",
+      "url": "https://www.nexplayground.com/games/teenage-mutant-ninja-turtles-rooftop-mayhem",
+      "ratio": 0.22,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Elmo & Abby’s Magical Letter Hunt",
+      "slug": "elmo-abbys-magical-letter-hunt",
+      "url": "https://www.nexplayground.com/games/elmo-abbys-magical-letter-hunt",
+      "ratio": 0.25,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Gabby’s Dollhouse: A-meow-zing Moves",
+      "slug": "gabbys-dollhouse-a-meow-zing-moves",
+      "url": "https://www.nexplayground.com/games/gabbys-dollhouse-a-meow-zing-moves",
+      "ratio": 0.25,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "The Tiny Chef Show: Cooking with Fwends",
+      "slug": "nickelodeon-the-tiny-chef-show-cooking-with-fwends",
+      "url": "https://www.nexplayground.com/games/nickelodeon-the-tiny-chef-show-cooking-with-fwends",
+      "ratio": 0.25,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Freefall Racers: Full-Body Racing",
+      "slug": "freefall-racers",
+      "url": "https://www.nexplayground.com/games/freefall-racers",
+      "ratio": 0.29,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Training Ground: Youth Athletic Training Drills",
+      "slug": "training-ground",
+      "url": "https://www.nexplayground.com/games/training-ground",
+      "ratio": 0.29,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Candy Land Sugary Sprint",
+      "slug": "candy-land",
+      "url": "https://www.nexplayground.com/games/candy-land",
+      "ratio": 0.33,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Care Bears: Rainbow Ride",
+      "slug": "care-bears-rainbow-ride",
+      "url": "https://www.nexplayground.com/games/care-bears-rainbow-ride",
+      "ratio": 0.33,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Peppa Pig: Jump & Giggle",
+      "slug": "peppa-pig-jump-giggle",
+      "url": "https://www.nexplayground.com/games/peppa-pig-jump-giggle",
+      "ratio": 0.33,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Unicorn Academy: Friendship Adventures",
+      "slug": "unicorn-academy-friendship-adventures",
+      "url": "https://www.nexplayground.com/games/unicorn-academy-friendship-adventures",
+      "ratio": 0.33,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Avatar: The Last Airbender Game",
+      "slug": "avatar-the-last-airbender-earth-rumble",
+      "url": "https://www.nexplayground.com/games/avatar-the-last-airbender-earth-rumble",
+      "ratio": 0.38,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Fruit Ninja: The Classic Game Gets Moving",
+      "slug": "fruit-ninja",
+      "url": "https://www.nexplayground.com/games/fruit-ninja",
+      "ratio": 0.38,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Cookie Monster’s Cookie Factory",
+      "slug": "cookie-monster-cookie-factory",
+      "url": "https://www.nexplayground.com/games/cookie-monster-cookie-factory",
+      "ratio": 0.4,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Miniacs: Steering Madness",
+      "slug": "miniacs-steering-madness",
+      "url": "https://www.nexplayground.com/games/miniacs-steering-madness",
+      "ratio": 0.4,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "NFL FLAG Heroes on Nex Playground",
+      "slug": "nfl-flag-heroes",
+      "url": "https://www.nexplayground.com/games/nfl-flag-heroes",
+      "ratio": 0.4,
+      "match": [
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Basketball Knockout: Arcade Hoops Game",
+      "slug": "basketball-knockout",
+      "url": "https://www.nexplayground.com/games/basketball-knockout",
+      "ratio": 0.43,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Dora: Star Explorer Learning Game",
+      "slug": "dora-star-explorer",
+      "url": "https://www.nexplayground.com/games/dora-star-explorer",
+      "ratio": 0.43,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Dude Perfect: Trickshot Challenge Game",
+      "slug": "dude-perfect-trickshot-challenge",
+      "url": "https://www.nexplayground.com/games/dude-perfect-trickshot-challenge",
+      "ratio": 0.43,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Homerun Heroes: Starstrikers Baseball Game",
+      "slug": "homerun-heroes-starstrikers",
+      "url": "https://www.nexplayground.com/games/homerun-heroes-starstrikers",
+      "ratio": 0.43,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "How to Train Your Dragon Game",
+      "slug": "how-to-train-your-dragon-riders-of-the-skies",
+      "url": "https://www.nexplayground.com/games/how-to-train-your-dragon-riders-of-the-skies",
+      "ratio": 0.43,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Juglr: Full-Body Arcade Game",
+      "slug": "juglr",
+      "url": "https://www.nexplayground.com/games/juglr",
+      "ratio": 0.43,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "NexPets: Puppies Virtual Pet Game",
+      "slug": "nexpets-puppies",
+      "url": "https://www.nexplayground.com/games/nexpets-puppies",
+      "ratio": 0.43,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Whac-a-Mole: The Arcade Classic in Motion",
+      "slug": "whac-a-mole-on-nex-playground",
+      "url": "https://www.nexplayground.com/games/whac-a-mole-on-nex-playground",
+      "ratio": 0.43,
+      "match": [
+        "motion",
+        "nex",
+        "playground"
+      ]
+    }
+  ],
+  "covered": [
+    {
+      "name": "Barbie Dance Party: Active Dance Game",
+      "slug": "barbie-dance-party",
+      "url": "https://www.nexplayground.com/games/barbie-dance-party",
+      "ratio": 0.86,
+      "match": [
+        "active",
+        "dance",
+        "game",
+        "nex",
+        "party"
+      ]
+    },
+    {
+      "name": "Party Fowl: Active Party Game",
+      "slug": "party-fowl",
+      "url": "https://www.nexplayground.com/games/party-fowl",
+      "ratio": 0.83,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "party",
+        "playground"
+      ]
+    },
+    {
+      "name": "Tumbobots: Active Sports Game",
+      "slug": "tumbobots",
+      "url": "https://www.nexplayground.com/games/tumbobots",
+      "ratio": 0.83,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground",
+        "sports"
+      ]
+    },
+    {
+      "name": "Bluey: Bust-a-Move Active Family Game",
+      "slug": "bluey-bust-a-move",
+      "url": "https://www.nexplayground.com/games/bluey-bust-a-move",
+      "ratio": 0.75,
+      "match": [
+        "active",
+        "family",
+        "game",
+        "move",
+        "nex"
+      ]
+    },
+    {
+      "name": "Active Arcade: Games to Get You Moving",
+      "slug": "active-arcade",
+      "url": "https://www.nexplayground.com/games/active-arcade",
+      "ratio": 0.71,
+      "match": [
+        "active",
+        "games",
+        "get",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Aeon Guard: Active Adventure Game",
+      "slug": "aeon-guard",
+      "url": "https://www.nexplayground.com/games/aeon-guard",
+      "ratio": 0.71,
+      "match": [
+        "active",
+        "adventure",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Arrow Party: Active Archery Game",
+      "slug": "arrow-party",
+      "url": "https://www.nexplayground.com/games/arrow-party",
+      "ratio": 0.71,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "party",
+        "playground"
+      ]
+    },
+    {
+      "name": "Connect 4 Bounce: Active Family Game",
+      "slug": "connect-4-bounce",
+      "url": "https://www.nexplayground.com/games/connect-4-bounce",
+      "ratio": 0.71,
+      "match": [
+        "active",
+        "family",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Dragon Jumpers: Active Party Game",
+      "slug": "dragon-jumpers",
+      "url": "https://www.nexplayground.com/games/dragon-jumpers",
+      "ratio": 0.71,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "party",
+        "playground"
+      ]
+    },
+    {
+      "name": "Elmo Says: Active Family Game",
+      "slug": "elmo-says",
+      "url": "https://www.nexplayground.com/games/elmo-says",
+      "ratio": 0.71,
+      "match": [
+        "active",
+        "family",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Family Fitness Challenge: Family Workout Game",
+      "slug": "family-fitness-challenge",
+      "url": "https://www.nexplayground.com/games/family-fitness-challenge",
+      "ratio": 0.71,
+      "match": [
+        "family",
+        "game",
+        "nex",
+        "playground",
+        "workout"
+      ]
+    },
+    {
+      "name": "Zumba Fitness Party: Dance Workout",
+      "slug": "zumba-fitness-party",
+      "url": "https://www.nexplayground.com/games/zumba-fitness-party",
+      "ratio": 0.71,
+      "match": [
+        "dance",
+        "nex",
+        "party",
+        "playground",
+        "workout"
+      ]
+    },
+    {
+      "name": "Bowling Strike: Active Family Bowling",
+      "slug": "bowling-strike",
+      "url": "https://www.nexplayground.com/games/bowling-strike",
+      "ratio": 0.67,
+      "match": [
+        "active",
+        "family",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Go Keeper: Active Soccer Game",
+      "slug": "go-keeper",
+      "url": "https://www.nexplayground.com/games/go-keeper",
+      "ratio": 0.67,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Kung Fu Panda: Active Kung Fu Game",
+      "slug": "kung-fu-panda",
+      "url": "https://www.nexplayground.com/games/kung-fu-panda",
+      "ratio": 0.67,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Luminous: Active Music Game",
+      "slug": "luminous",
+      "url": "https://www.nexplayground.com/games/luminous",
+      "ratio": 0.67,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Mirrorama: Motion-Controlled Game",
+      "slug": "mirrorama",
+      "url": "https://www.nexplayground.com/games/mirrorama",
+      "ratio": 0.67,
+      "match": [
+        "game",
+        "motion",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "NexGym: At-Home Fitness Game",
+      "slug": "nexgym",
+      "url": "https://www.nexplayground.com/games/nexgym",
+      "ratio": 0.67,
+      "match": [
+        "game",
+        "home",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Starri: Active Rhythm Game",
+      "slug": "starri",
+      "url": "https://www.nexplayground.com/games/starri",
+      "ratio": 0.67,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Starzzle: Active Puzzle Game",
+      "slug": "starzzle",
+      "url": "https://www.nexplayground.com/games/starzzle",
+      "ratio": 0.67,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "What on Earth?: Active Trivia Game",
+      "slug": "what-on-earth",
+      "url": "https://www.nexplayground.com/games/what-on-earth",
+      "ratio": 0.67,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Air Racer: Active Play Flying Game",
+      "slug": "air-racer",
+      "url": "https://www.nexplayground.com/games/air-racer",
+      "ratio": 0.62,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "play",
+        "playground"
+      ]
+    },
+    {
+      "name": "Copy Cat Deluxe: Active Party Game",
+      "slug": "copy-cat-deluxe",
+      "url": "https://www.nexplayground.com/games/copy-cat-deluxe",
+      "ratio": 0.62,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "party",
+        "playground"
+      ]
+    },
+    {
+      "name": "Pip’s Tale: Active Adventure Game",
+      "slug": "pips-tale",
+      "url": "https://www.nexplayground.com/games/pips-tale",
+      "ratio": 0.62,
+      "match": [
+        "active",
+        "adventure",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Sword Slash Adventure: Active Action Game",
+      "slug": "sword-slash-adventure",
+      "url": "https://www.nexplayground.com/games/sword-slash-adventure",
+      "ratio": 0.62,
+      "match": [
+        "active",
+        "adventure",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Move & Groove with Grover",
+      "slug": "move-groove-with-grover",
+      "url": "https://www.nexplayground.com/games/move-groove-with-grover",
+      "ratio": 0.6,
+      "match": [
+        "move",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "2048 Arms: Active Puzzle Game",
+      "slug": "2048-arms",
+      "url": "https://www.nexplayground.com/games/2048-arms",
+      "ratio": 0.57,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "BoxFlow Fitness: At-Home Boxing Game",
+      "slug": "boxflow-fitness",
+      "url": "https://www.nexplayground.com/games/boxflow-fitness",
+      "ratio": 0.57,
+      "match": [
+        "game",
+        "home",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Brainy Inc.: Active Brain Games",
+      "slug": "brainy-inc",
+      "url": "https://www.nexplayground.com/games/brainy-inc",
+      "ratio": 0.57,
+      "match": [
+        "active",
+        "games",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Brick Buster: Active Arcade Game",
+      "slug": "brick-buster",
+      "url": "https://www.nexplayground.com/games/brick-buster",
+      "ratio": 0.57,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Doodle Heads: Active Arcade Adventure",
+      "slug": "doodle-heads",
+      "url": "https://www.nexplayground.com/games/doodle-heads",
+      "ratio": 0.57,
+      "match": [
+        "active",
+        "adventure",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Hungry Hungry Hippos Move N’ Munch Game on Nex Playground",
+      "slug": "hungry-hungry-hippos",
+      "url": "https://www.nexplayground.com/games/hungry-hungry-hippos",
+      "ratio": 0.57,
+      "match": [
+        "game",
+        "move",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Mingle: Active Match & Merge Game",
+      "slug": "mingle",
+      "url": "https://www.nexplayground.com/games/mingle",
+      "ratio": 0.57,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Tennis Smash: Active Tennis Game",
+      "slug": "tennis-smash-racketville",
+      "url": "https://www.nexplayground.com/games/tennis-smash-racketville",
+      "ratio": 0.57,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Chroma Crew: Active Skateboarding",
+      "slug": "chroma-crew",
+      "url": "https://www.nexplayground.com/games/chroma-crew",
+      "ratio": 0.5,
+      "match": [
+        "active",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "GALAX: Cooperative Puzzle Game",
+      "slug": "galax",
+      "url": "https://www.nexplayground.com/games/galax",
+      "ratio": 0.5,
+      "match": [
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Miraculous Ladybug: Active Adventure",
+      "slug": "miraculous-ladybug-paris-dash",
+      "url": "https://www.nexplayground.com/games/miraculous-ladybug-paris-dash",
+      "ratio": 0.5,
+      "match": [
+        "active",
+        "adventure",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "NHL Puck Rush: Active Hockey Game",
+      "slug": "nhl-puck-rush",
+      "url": "https://www.nexplayground.com/games/nhl-puck-rush",
+      "ratio": 0.5,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    },
+    {
+      "name": "Rubik’s Showdown: Active Puzzle Game",
+      "slug": "rubiks-showdown",
+      "url": "https://www.nexplayground.com/games/rubiks-showdown",
+      "ratio": 0.5,
+      "match": [
+        "active",
+        "game",
+        "nex",
+        "playground"
+      ]
+    }
+  ],
+  "angles": [
+    {
+      "角度": "订阅/付费模式",
+      "自有站篇数": 1
+    },
+    {
+      "角度": "隐私/摄像头安全",
+      "自有站篇数": 1
+    },
+    {
+      "角度": "空间/场地需求",
+      "自有站篇数": 1
+    },
+    {
+      "角度": "价格/成本",
+      "自有站篇数": 2
+    },
+    {
+      "角度": "礼品/送礼场景",
+      "自有站篇数": 2
+    },
+    {
+      "角度": "年龄段/适龄",
+      "自有站篇数": 3
+    },
+    {
+      "角度": "多人/家庭同玩",
+      "自有站篇数": 3
+    },
+    {
+      "角度": "替代品/对比",
+      "自有站篇数": 4
+    }
+  ]
+}
