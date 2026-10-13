@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-12",
+  "old": "site_pages_20261011_prev.json",
+  "new": "site_pages.json",
+  "pages_old": 83,
+  "pages_new": 83,
+  "added": [],
+  "removed": [],
+  "total_chars_old": 196033,
+  "total_chars_new": 196022,
+  "changed": [
+    {
+      "url": "https://www.nexplayground.com/games/dude-perfect-trickshot-challenge",
+      "title": "Dude Perfect: Trickshot Challenge Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1743,
+      "new_len": 1732,
+      "delta": -11
+    }
+  ],
+  "substantial_threshold": 100,
+  "substantial": [],
+  "template_noise": [
+    {
+      "url": "https://www.nexplayground.com/games/dude-perfect-trickshot-challenge",
+      "title": "Dude Perfect: Trickshot Challenge Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1743,
+      "new_len": 1732,
+      "delta": -11
+    }
+  ],
+  "by_type": []
+}

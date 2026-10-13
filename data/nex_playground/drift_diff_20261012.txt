@@ -1,0 +1,13 @@
+# Nex Playground 独立站本地差分 2026-10-12 23:03
+OLD: site_pages_20261011_prev.json  (83 页)
+NEW: site_pages.json  (83 页)
+
+新增页: 0   删除页: 0   内容变更页: 1
+
+## 内容变更（按字符数变化绝对值降序）
+
+### nexplayground.com/games/dude-perfect-trickshot-challenge  [游戏] Dude Perfect: Trickshot Challenge Game | Nex Playground
+字符数: 1743 -> 1732  (-11)
+  [replace]
+    - 1 Player Fun Center Dude Perfect: Trickshot Challenge Plan, practice, and perfect high-five worthy tricks in Dude Perfect: Trick Shot Challenge.
+    + 1 Player Fun Center Take Your (Trick) Shot Plan, practice, and perfect high-five worthy tricks in Dude Perfect: Trick Shot Challenge.
