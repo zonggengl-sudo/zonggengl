@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-13",
+  "rows": [
+    {
+      "ip": "Sonic the Hedgehog (SEGA)",
+      "frag": "sonic",
+      "competitor_standalone": false,
+      "competitor_mentions": 14,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "A",
+      "priority": "🔴 最高优先（窗口开启）",
+      "our_urls": []
+    },
+    {
+      "ip": "Avatar: The Last Airbender",
+      "frag": "avatar",
+      "competitor_standalone": true,
+      "competitor_mentions": 16,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Kung Fu Panda",
+      "frag": "kung-fu-panda",
+      "competitor_standalone": true,
+      "competitor_mentions": 14,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Elmo / Sesame Workshop",
+      "frag": "elmo",
+      "competitor_standalone": true,
+      "competitor_mentions": 13,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Care Bears",
+      "frag": "care-bears",
+      "competitor_standalone": true,
+      "competitor_mentions": 13,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "How to Train Your Dragon",
+      "frag": "how-to-train-your-dragon",
+      "competitor_standalone": true,
+      "competitor_mentions": 12,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Miraculous Ladybug",
+      "frag": "miraculous",
+      "competitor_standalone": true,
+      "competitor_mentions": 12,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Dora the Explorer",
+      "frag": "dora",
+      "competitor_standalone": true,
+      "competitor_mentions": 8,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Cookie Monster / Sesame Workshop",
+      "frag": "cookie-monster",
+      "competitor_standalone": true,
+      "competitor_mentions": 7,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Peppa Pig",
+      "frag": "peppa-pig",
+      "competitor_standalone": true,
+      "competitor_mentions": 7,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Gabby's Dollhouse",
+      "frag": "gabby",
+      "competitor_standalone": true,
+      "competitor_mentions": 7,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Bluey",
+      "frag": "bluey",
+      "competitor_standalone": true,
+      "competitor_mentions": 7,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Barbie",
+      "frag": "barbie",
+      "competitor_standalone": true,
+      "competitor_mentions": 7,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Unicorn Academy",
+      "frag": "unicorn-academy",
+      "competitor_standalone": true,
+      "competitor_mentions": 3,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Nickelodeon / Tiny Chef",
+      "frag": "nickelodeon",
+      "competitor_standalone": true,
+      "competitor_mentions": 2,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "TMNT 忍者神龟",
+      "frag": "teenage-mutant-ninja-turtles",
+      "competitor_standalone": true,
+      "competitor_mentions": 2,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "C",
+      "priority": "🟠 硬碰硬（需差异化）",
+      "our_urls": []
+    },
+    {
+      "ip": "Paw Patrol",
+      "frag": "paw-patrol",
+      "competitor_standalone": false,
+      "competitor_mentions": 0,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "E",
+      "priority": "⚪ 无信号（竞品未涉及）",
+      "our_urls": []
+    },
+    {
+      "ip": "Hot Wheels",
+      "frag": "hot-wheels",
+      "competitor_standalone": false,
+      "competitor_mentions": 0,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "E",
+      "priority": "⚪ 无信号（竞品未涉及）",
+      "our_urls": []
+    },
+    {
+      "ip": "Minecraft",
+      "frag": "minecraft",
+      "competitor_standalone": false,
+      "competitor_mentions": 0,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "E",
+      "priority": "⚪ 无信号（竞品未涉及）",
+      "our_urls": []
+    },
+    {
+      "ip": "Marvel",
+      "frag": "marvel",
+      "competitor_standalone": false,
+      "competitor_mentions": 0,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "E",
+      "priority": "⚪ 无信号（竞品未涉及）",
+      "our_urls": []
+    },
+    {
+      "ip": "Star Wars",
+      "frag": "star-wars",
+      "competitor_standalone": false,
+      "competitor_mentions": 0,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "E",
+      "priority": "⚪ 无信号（竞品未涉及）",
+      "our_urls": []
+    },
+    {
+      "ip": "Disney",
+      "frag": "disney",
+      "competitor_standalone": false,
+      "competitor_mentions": 0,
+      "our_blog_posts": 0,
+      "our_cover_ratio": 0.0,
+      "quadrant": "E",
+      "priority": "⚪ 无信号（竞品未涉及）",
+      "our_urls": []
+    }
+  ]
+}
