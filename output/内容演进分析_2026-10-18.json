@@ -1,0 +1,1534 @@
+{
+  "date": "2026-10-18",
+  "old": "site_pages_20260926_morning.json",
+  "new": "site_pages.json",
+  "pages_old": 83,
+  "pages_new": 83,
+  "added": [],
+  "removed": [],
+  "total_chars_old": 191832,
+  "total_chars_new": 196030,
+  "changed": [
+    {
+      "url": "https://www.nexplayground.com/play-pass",
+      "title": "Nex Playground Play Pass Subscription",
+      "page": "Play Pass订阅",
+      "type": "Play Pass订阅",
+      "old_len": 14545,
+      "new_len": 15932,
+      "delta": 1387
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/nex-playground",
+      "title": "Buy Nex Playground",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 3986,
+      "new_len": 4811,
+      "delta": 825
+    },
+    {
+      "url": "https://www.nexplayground.com/games",
+      "title": "Nex Playground Games",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 9085,
+      "new_len": 9806,
+      "delta": 721
+    },
+    {
+      "url": "https://www.nexplayground.com/find-in-stores",
+      "title": "Where to find Nex Playground in stores",
+      "page": "find-in-stores",
+      "type": "find-in-stores",
+      "old_len": 2278,
+      "new_len": 2938,
+      "delta": 660
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/playpass",
+      "title": "Buy Nex Playground Play Pass",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 2621,
+      "new_len": 3281,
+      "delta": 660
+    },
+    {
+      "url": "https://www.nexplayground.com/games/teenage-mutant-ninja-turtles-rooftop-mayhem",
+      "title": "TMNT: Rooftop Mayhem",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1891,
+      "new_len": 1916,
+      "delta": 25
+    },
+    {
+      "url": "https://www.nexplayground.com/games/unicorn-academy-friendship-adventures",
+      "title": "Unicorn Academy: Friendship Adventures",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2108,
+      "new_len": 2133,
+      "delta": 25
+    },
+    {
+      "url": "https://www.nexplayground.com/games/galax",
+      "title": "GALAX: Cooperative Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1672,
+      "new_len": 1688,
+      "delta": 16
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nickelodeon-the-tiny-chef-show-cooking-with-fwends",
+      "title": "The Tiny Chef Show: Cooking with Fwends",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1522,
+      "new_len": 1538,
+      "delta": 16
+    },
+    {
+      "url": "https://www.nexplayground.com/",
+      "title": "Nex Playground",
+      "page": "首页",
+      "type": "首页文案",
+      "old_len": 1655,
+      "new_len": 1670,
+      "delta": 15
+    },
+    {
+      "url": "https://www.nexplayground.com/community",
+      "title": "Community Hub",
+      "page": "community",
+      "type": "community",
+      "old_len": 1398,
+      "new_len": 1407,
+      "delta": 9
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nexgym",
+      "title": "NexGym: At-Home Fitness Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 930,
+      "new_len": 937,
+      "delta": 7
+    },
+    {
+      "url": "https://www.nexplayground.com/games/tennis-smash-racketville",
+      "title": "Tennis Smash: Active Tennis Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1677,
+      "new_len": 1684,
+      "delta": 7
+    },
+    {
+      "url": "https://www.nexplayground.com/about",
+      "title": "About Nex",
+      "page": "about",
+      "type": "about",
+      "old_len": 3498,
+      "new_len": 3499,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/careers",
+      "title": "Careers",
+      "page": "careers",
+      "type": "careers",
+      "old_len": 1797,
+      "new_len": 1798,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/contact",
+      "title": "Contact Us",
+      "page": "contact",
+      "type": "contact",
+      "old_len": 2349,
+      "new_len": 2350,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/2048-arms",
+      "title": "2048 Arms: Active Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 962,
+      "new_len": 963,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/active-arcade",
+      "title": "Active Arcade: Games to Get You Moving",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1038,
+      "new_len": 1039,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/arrow-party",
+      "title": "Arrow Party: Active Archery Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1495,
+      "new_len": 1496,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/barbie-dance-party",
+      "title": "Barbie Dance Party: Active Dance Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1323,
+      "new_len": 1324,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/basketball-knockout",
+      "title": "Basketball Knockout: Arcade Hoops Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 955,
+      "new_len": 956,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/bluey-bust-a-move",
+      "title": "Bluey: Bust-a-Move Active Family Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1555,
+      "new_len": 1556,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/bowling-strike",
+      "title": "Bowling Strike: Active Family Bowling",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1475,
+      "new_len": 1476,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/boxflow-fitness",
+      "title": "BoxFlow Fitness: At-Home Boxing Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1451,
+      "new_len": 1452,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/brainy-inc",
+      "title": "Brainy Inc.: Active Brain Games",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1556,
+      "new_len": 1557,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/brick-buster",
+      "title": "Brick Buster: Active Arcade Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 921,
+      "new_len": 922,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/candy-land",
+      "title": "Candy Land Sugary Sprint",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1714,
+      "new_len": 1715,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/chroma-crew",
+      "title": "Chroma Crew: Active Skateboarding",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1820,
+      "new_len": 1821,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/connect-4-bounce",
+      "title": "Connect 4 Bounce: Active Family Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1772,
+      "new_len": 1773,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/cookie-monster-cookie-factory",
+      "title": "Cookie Monster’s Cookie Factory",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1642,
+      "new_len": 1643,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/copy-cat-deluxe",
+      "title": "Copy Cat Deluxe: Active Party Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1719,
+      "new_len": 1720,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/doodle-heads",
+      "title": "Doodle Heads: Active Arcade Adventure",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1428,
+      "new_len": 1429,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/dora-star-explorer",
+      "title": "Dora: Star Explorer Learning Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1158,
+      "new_len": 1159,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/dragon-jumpers",
+      "title": "Dragon Jumpers: Active Party Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1151,
+      "new_len": 1152,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/elmo-abbys-magical-letter-hunt",
+      "title": "Elmo & Abby’s Magical Letter Hunt",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1264,
+      "new_len": 1265,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/elmo-says",
+      "title": "Elmo Says: Active Family Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1506,
+      "new_len": 1507,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/family-fitness-challenge",
+      "title": "Family Fitness Challenge: Family Workout Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1303,
+      "new_len": 1304,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/gabbys-dollhouse-a-meow-zing-moves",
+      "title": "Gabby’s Dollhouse: A-meow-zing Moves",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1568,
+      "new_len": 1569,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/go-keeper",
+      "title": "Go Keeper: Active Soccer Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1835,
+      "new_len": 1836,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/homerun-heroes-starstrikers",
+      "title": "Homerun Heroes: Starstrikers Baseball Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1743,
+      "new_len": 1744,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/hungry-hungry-hippos",
+      "title": "Hungry Hungry Hippos Move N’ Munch Game on Nex Playground",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1804,
+      "new_len": 1805,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/juglr",
+      "title": "Juglr: Full-Body Arcade Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 971,
+      "new_len": 972,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/luminous",
+      "title": "Luminous: Active Music Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 837,
+      "new_len": 838,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/mingle",
+      "title": "Mingle: Active Match & Merge Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1487,
+      "new_len": 1488,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/miniacs-steering-madness",
+      "title": "Miniacs: Steering Madness",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 970,
+      "new_len": 971,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/mirrorama",
+      "title": "Mirrorama: Motion-Controlled Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1745,
+      "new_len": 1746,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/move-groove-with-grover",
+      "title": "Move & Groove with Grover",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1632,
+      "new_len": 1633,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nexpets-puppies",
+      "title": "NexPets: Puppies Virtual Pet Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1521,
+      "new_len": 1522,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nfl-flag-heroes",
+      "title": "NFL FLAG Heroes on Nex Playground",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1867,
+      "new_len": 1868,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nhl-puck-rush",
+      "title": "NHL Puck Rush: Active Hockey Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1765,
+      "new_len": 1766,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/party-fowl",
+      "title": "Party Fowl: Active Party Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1690,
+      "new_len": 1691,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/peppa-pig-jump-giggle",
+      "title": "Peppa Pig: Jump & Giggle",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1731,
+      "new_len": 1732,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/rubiks-showdown",
+      "title": "Rubik’s Showdown: Active Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1042,
+      "new_len": 1043,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/starri",
+      "title": "Starri: Active Rhythm Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1556,
+      "new_len": 1557,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/starzzle",
+      "title": "Starzzle: Active Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 949,
+      "new_len": 950,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/training-ground",
+      "title": "Training Ground: Youth Athletic Training Drills",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1839,
+      "new_len": 1840,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/tumbobots",
+      "title": "Tumbobots: Active Sports Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1475,
+      "new_len": 1476,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/whac-a-mole-on-nex-playground",
+      "title": "Whac-a-Mole: The Arcade Classic in Motion",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1634,
+      "new_len": 1635,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/what-on-earth",
+      "title": "What on Earth?: Active Trivia Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1991,
+      "new_len": 1992,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/zumba-fitness-party",
+      "title": "Zumba Fitness Party: Dance Workout",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1545,
+      "new_len": 1546,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/japan-2026",
+      "title": "Nex Playgroundとは",
+      "page": "japan-2026",
+      "type": "japan-2026",
+      "old_len": 1806,
+      "new_len": 1807,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/learn/compliance-regulatory",
+      "title": "Nex Playground Compliance and Regulatory Information",
+      "page": "学习中心",
+      "type": "学习中心",
+      "old_len": 862,
+      "new_len": 863,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/mission",
+      "title": "Mission",
+      "page": "mission",
+      "type": "mission",
+      "old_len": 1162,
+      "new_len": 1163,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/playground",
+      "title": "Why Nex Playground",
+      "page": "产品介绍",
+      "type": "产品介绍",
+      "old_len": 2016,
+      "new_len": 2017,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/playground-for-good",
+      "title": "Playground for Good",
+      "page": "playground-for-good",
+      "type": "playground-for-good",
+      "old_len": 2028,
+      "new_len": 2029,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/privacy",
+      "title": "PRIVACY POLICY FOR NEX SOFTWARE (GENERAL)",
+      "page": "privacy",
+      "type": "privacy",
+      "old_len": 21759,
+      "new_len": 21760,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/refund",
+      "title": "Refund Policy",
+      "page": "refund",
+      "type": "refund",
+      "old_len": 14469,
+      "new_len": 14470,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/safety-and-privacy",
+      "title": "Safety & Privacy",
+      "page": "safety-and-privacy",
+      "type": "safety-and-privacy",
+      "old_len": 3703,
+      "new_len": 3704,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/playground-remote",
+      "title": "Buy Nex Playground Remote",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 534,
+      "new_len": 535,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/travel-case",
+      "title": "Buy Nex Playground Travel Case",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 2640,
+      "new_len": 2641,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/trust",
+      "title": "Trust Center",
+      "page": "trust",
+      "type": "trust",
+      "old_len": 1181,
+      "new_len": 1182,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/dude-perfect-trickshot-challenge",
+      "title": "Dude Perfect: Trickshot Challenge Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1742,
+      "new_len": 1732,
+      "delta": -10
+    },
+    {
+      "url": "https://www.nexplayground.com/games/fruit-ninja",
+      "title": "Fruit Ninja: The Classic Game Gets Moving",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1585,
+      "new_len": 1572,
+      "delta": -13
+    },
+    {
+      "url": "https://www.nexplayground.com/games/aeon-guard",
+      "title": "Aeon Guard: Active Adventure Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1352,
+      "new_len": 1331,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/air-racer",
+      "title": "Air Racer: Active Play Flying Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1427,
+      "new_len": 1406,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/avatar-the-last-airbender-earth-rumble",
+      "title": "Avatar: The Last Airbender Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2333,
+      "new_len": 2312,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/care-bears-rainbow-ride",
+      "title": "Care Bears: Rainbow Ride",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2080,
+      "new_len": 2059,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/freefall-racers",
+      "title": "Freefall Racers: Full-Body Racing",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2188,
+      "new_len": 2167,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/how-to-train-your-dragon-riders-of-the-skies",
+      "title": "How to Train Your Dragon Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2077,
+      "new_len": 2056,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/kung-fu-panda",
+      "title": "Kung Fu Panda: Active Kung Fu Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1933,
+      "new_len": 1912,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/miraculous-ladybug-paris-dash",
+      "title": "Miraculous Ladybug: Active Adventure",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2028,
+      "new_len": 2007,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/pips-tale",
+      "title": "Pip’s Tale: Active Adventure Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1428,
+      "new_len": 1407,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/sword-slash-adventure",
+      "title": "Sword Slash Adventure: Active Action Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2082,
+      "new_len": 2061,
+      "delta": -21
+    }
+  ],
+  "substantial_threshold": 100,
+  "substantial": [
+    {
+      "url": "https://www.nexplayground.com/play-pass",
+      "title": "Nex Playground Play Pass Subscription",
+      "page": "Play Pass订阅",
+      "type": "Play Pass订阅",
+      "old_len": 14545,
+      "new_len": 15932,
+      "delta": 1387
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/nex-playground",
+      "title": "Buy Nex Playground",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 3986,
+      "new_len": 4811,
+      "delta": 825
+    },
+    {
+      "url": "https://www.nexplayground.com/games",
+      "title": "Nex Playground Games",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 9085,
+      "new_len": 9806,
+      "delta": 721
+    },
+    {
+      "url": "https://www.nexplayground.com/find-in-stores",
+      "title": "Where to find Nex Playground in stores",
+      "page": "find-in-stores",
+      "type": "find-in-stores",
+      "old_len": 2278,
+      "new_len": 2938,
+      "delta": 660
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/playpass",
+      "title": "Buy Nex Playground Play Pass",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 2621,
+      "new_len": 3281,
+      "delta": 660
+    }
+  ],
+  "template_noise": [
+    {
+      "url": "https://www.nexplayground.com/games/teenage-mutant-ninja-turtles-rooftop-mayhem",
+      "title": "TMNT: Rooftop Mayhem",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1891,
+      "new_len": 1916,
+      "delta": 25
+    },
+    {
+      "url": "https://www.nexplayground.com/games/unicorn-academy-friendship-adventures",
+      "title": "Unicorn Academy: Friendship Adventures",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2108,
+      "new_len": 2133,
+      "delta": 25
+    },
+    {
+      "url": "https://www.nexplayground.com/games/galax",
+      "title": "GALAX: Cooperative Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1672,
+      "new_len": 1688,
+      "delta": 16
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nickelodeon-the-tiny-chef-show-cooking-with-fwends",
+      "title": "The Tiny Chef Show: Cooking with Fwends",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1522,
+      "new_len": 1538,
+      "delta": 16
+    },
+    {
+      "url": "https://www.nexplayground.com/",
+      "title": "Nex Playground",
+      "page": "首页",
+      "type": "首页文案",
+      "old_len": 1655,
+      "new_len": 1670,
+      "delta": 15
+    },
+    {
+      "url": "https://www.nexplayground.com/community",
+      "title": "Community Hub",
+      "page": "community",
+      "type": "community",
+      "old_len": 1398,
+      "new_len": 1407,
+      "delta": 9
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nexgym",
+      "title": "NexGym: At-Home Fitness Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 930,
+      "new_len": 937,
+      "delta": 7
+    },
+    {
+      "url": "https://www.nexplayground.com/games/tennis-smash-racketville",
+      "title": "Tennis Smash: Active Tennis Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1677,
+      "new_len": 1684,
+      "delta": 7
+    },
+    {
+      "url": "https://www.nexplayground.com/about",
+      "title": "About Nex",
+      "page": "about",
+      "type": "about",
+      "old_len": 3498,
+      "new_len": 3499,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/careers",
+      "title": "Careers",
+      "page": "careers",
+      "type": "careers",
+      "old_len": 1797,
+      "new_len": 1798,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/contact",
+      "title": "Contact Us",
+      "page": "contact",
+      "type": "contact",
+      "old_len": 2349,
+      "new_len": 2350,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/2048-arms",
+      "title": "2048 Arms: Active Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 962,
+      "new_len": 963,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/active-arcade",
+      "title": "Active Arcade: Games to Get You Moving",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1038,
+      "new_len": 1039,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/arrow-party",
+      "title": "Arrow Party: Active Archery Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1495,
+      "new_len": 1496,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/barbie-dance-party",
+      "title": "Barbie Dance Party: Active Dance Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1323,
+      "new_len": 1324,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/basketball-knockout",
+      "title": "Basketball Knockout: Arcade Hoops Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 955,
+      "new_len": 956,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/bluey-bust-a-move",
+      "title": "Bluey: Bust-a-Move Active Family Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1555,
+      "new_len": 1556,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/bowling-strike",
+      "title": "Bowling Strike: Active Family Bowling",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1475,
+      "new_len": 1476,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/boxflow-fitness",
+      "title": "BoxFlow Fitness: At-Home Boxing Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1451,
+      "new_len": 1452,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/brainy-inc",
+      "title": "Brainy Inc.: Active Brain Games",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1556,
+      "new_len": 1557,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/brick-buster",
+      "title": "Brick Buster: Active Arcade Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 921,
+      "new_len": 922,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/candy-land",
+      "title": "Candy Land Sugary Sprint",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1714,
+      "new_len": 1715,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/chroma-crew",
+      "title": "Chroma Crew: Active Skateboarding",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1820,
+      "new_len": 1821,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/connect-4-bounce",
+      "title": "Connect 4 Bounce: Active Family Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1772,
+      "new_len": 1773,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/cookie-monster-cookie-factory",
+      "title": "Cookie Monster’s Cookie Factory",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1642,
+      "new_len": 1643,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/copy-cat-deluxe",
+      "title": "Copy Cat Deluxe: Active Party Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1719,
+      "new_len": 1720,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/doodle-heads",
+      "title": "Doodle Heads: Active Arcade Adventure",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1428,
+      "new_len": 1429,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/dora-star-explorer",
+      "title": "Dora: Star Explorer Learning Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1158,
+      "new_len": 1159,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/dragon-jumpers",
+      "title": "Dragon Jumpers: Active Party Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1151,
+      "new_len": 1152,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/elmo-abbys-magical-letter-hunt",
+      "title": "Elmo & Abby’s Magical Letter Hunt",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1264,
+      "new_len": 1265,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/elmo-says",
+      "title": "Elmo Says: Active Family Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1506,
+      "new_len": 1507,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/family-fitness-challenge",
+      "title": "Family Fitness Challenge: Family Workout Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1303,
+      "new_len": 1304,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/gabbys-dollhouse-a-meow-zing-moves",
+      "title": "Gabby’s Dollhouse: A-meow-zing Moves",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1568,
+      "new_len": 1569,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/go-keeper",
+      "title": "Go Keeper: Active Soccer Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1835,
+      "new_len": 1836,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/homerun-heroes-starstrikers",
+      "title": "Homerun Heroes: Starstrikers Baseball Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1743,
+      "new_len": 1744,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/hungry-hungry-hippos",
+      "title": "Hungry Hungry Hippos Move N’ Munch Game on Nex Playground",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1804,
+      "new_len": 1805,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/juglr",
+      "title": "Juglr: Full-Body Arcade Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 971,
+      "new_len": 972,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/luminous",
+      "title": "Luminous: Active Music Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 837,
+      "new_len": 838,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/mingle",
+      "title": "Mingle: Active Match & Merge Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1487,
+      "new_len": 1488,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/miniacs-steering-madness",
+      "title": "Miniacs: Steering Madness",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 970,
+      "new_len": 971,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/mirrorama",
+      "title": "Mirrorama: Motion-Controlled Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1745,
+      "new_len": 1746,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/move-groove-with-grover",
+      "title": "Move & Groove with Grover",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1632,
+      "new_len": 1633,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nexpets-puppies",
+      "title": "NexPets: Puppies Virtual Pet Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1521,
+      "new_len": 1522,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nfl-flag-heroes",
+      "title": "NFL FLAG Heroes on Nex Playground",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1867,
+      "new_len": 1868,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/nhl-puck-rush",
+      "title": "NHL Puck Rush: Active Hockey Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1765,
+      "new_len": 1766,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/party-fowl",
+      "title": "Party Fowl: Active Party Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1690,
+      "new_len": 1691,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/peppa-pig-jump-giggle",
+      "title": "Peppa Pig: Jump & Giggle",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1731,
+      "new_len": 1732,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/rubiks-showdown",
+      "title": "Rubik’s Showdown: Active Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1042,
+      "new_len": 1043,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/starri",
+      "title": "Starri: Active Rhythm Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1556,
+      "new_len": 1557,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/starzzle",
+      "title": "Starzzle: Active Puzzle Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 949,
+      "new_len": 950,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/training-ground",
+      "title": "Training Ground: Youth Athletic Training Drills",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1839,
+      "new_len": 1840,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/tumbobots",
+      "title": "Tumbobots: Active Sports Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1475,
+      "new_len": 1476,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/whac-a-mole-on-nex-playground",
+      "title": "Whac-a-Mole: The Arcade Classic in Motion",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1634,
+      "new_len": 1635,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/what-on-earth",
+      "title": "What on Earth?: Active Trivia Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1991,
+      "new_len": 1992,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/zumba-fitness-party",
+      "title": "Zumba Fitness Party: Dance Workout",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1545,
+      "new_len": 1546,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/japan-2026",
+      "title": "Nex Playgroundとは",
+      "page": "japan-2026",
+      "type": "japan-2026",
+      "old_len": 1806,
+      "new_len": 1807,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/learn/compliance-regulatory",
+      "title": "Nex Playground Compliance and Regulatory Information",
+      "page": "学习中心",
+      "type": "学习中心",
+      "old_len": 862,
+      "new_len": 863,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/mission",
+      "title": "Mission",
+      "page": "mission",
+      "type": "mission",
+      "old_len": 1162,
+      "new_len": 1163,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/playground",
+      "title": "Why Nex Playground",
+      "page": "产品介绍",
+      "type": "产品介绍",
+      "old_len": 2016,
+      "new_len": 2017,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/playground-for-good",
+      "title": "Playground for Good",
+      "page": "playground-for-good",
+      "type": "playground-for-good",
+      "old_len": 2028,
+      "new_len": 2029,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/privacy",
+      "title": "PRIVACY POLICY FOR NEX SOFTWARE (GENERAL)",
+      "page": "privacy",
+      "type": "privacy",
+      "old_len": 21759,
+      "new_len": 21760,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/refund",
+      "title": "Refund Policy",
+      "page": "refund",
+      "type": "refund",
+      "old_len": 14469,
+      "new_len": 14470,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/safety-and-privacy",
+      "title": "Safety & Privacy",
+      "page": "safety-and-privacy",
+      "type": "safety-and-privacy",
+      "old_len": 3703,
+      "new_len": 3704,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/playground-remote",
+      "title": "Buy Nex Playground Remote",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 534,
+      "new_len": 535,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/shop/travel-case",
+      "title": "Buy Nex Playground Travel Case",
+      "page": "商店",
+      "type": "商店",
+      "old_len": 2640,
+      "new_len": 2641,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/trust",
+      "title": "Trust Center",
+      "page": "trust",
+      "type": "trust",
+      "old_len": 1181,
+      "new_len": 1182,
+      "delta": 1
+    },
+    {
+      "url": "https://www.nexplayground.com/games/dude-perfect-trickshot-challenge",
+      "title": "Dude Perfect: Trickshot Challenge Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1742,
+      "new_len": 1732,
+      "delta": -10
+    },
+    {
+      "url": "https://www.nexplayground.com/games/fruit-ninja",
+      "title": "Fruit Ninja: The Classic Game Gets Moving",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1585,
+      "new_len": 1572,
+      "delta": -13
+    },
+    {
+      "url": "https://www.nexplayground.com/games/aeon-guard",
+      "title": "Aeon Guard: Active Adventure Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1352,
+      "new_len": 1331,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/air-racer",
+      "title": "Air Racer: Active Play Flying Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1427,
+      "new_len": 1406,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/avatar-the-last-airbender-earth-rumble",
+      "title": "Avatar: The Last Airbender Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2333,
+      "new_len": 2312,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/care-bears-rainbow-ride",
+      "title": "Care Bears: Rainbow Ride",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2080,
+      "new_len": 2059,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/freefall-racers",
+      "title": "Freefall Racers: Full-Body Racing",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2188,
+      "new_len": 2167,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/how-to-train-your-dragon-riders-of-the-skies",
+      "title": "How to Train Your Dragon Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2077,
+      "new_len": 2056,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/kung-fu-panda",
+      "title": "Kung Fu Panda: Active Kung Fu Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1933,
+      "new_len": 1912,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/miraculous-ladybug-paris-dash",
+      "title": "Miraculous Ladybug: Active Adventure",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2028,
+      "new_len": 2007,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/pips-tale",
+      "title": "Pip’s Tale: Active Adventure Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 1428,
+      "new_len": 1407,
+      "delta": -21
+    },
+    {
+      "url": "https://www.nexplayground.com/games/sword-slash-adventure",
+      "title": "Sword Slash Adventure: Active Action Game",
+      "page": "游戏",
+      "type": "游戏",
+      "old_len": 2082,
+      "new_len": 2061,
+      "delta": -21
+    }
+  ],
+  "by_type": [
+    {
+      "type": "商店",
+      "n": 2,
+      "delta": 1485
+    },
+    {
+      "type": "Play Pass订阅",
+      "n": 1,
+      "delta": 1387
+    },
+    {
+      "type": "游戏",
+      "n": 1,
+      "delta": 721
+    },
+    {
+      "type": "find-in-stores",
+      "n": 1,
+      "delta": 660
+    }
+  ]
+}
