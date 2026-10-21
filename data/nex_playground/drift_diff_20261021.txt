@@ -1,0 +1,57 @@
+# Nex Playground 独立站本地差分 2026-10-21 10:21
+OLD: site_pages_20261020_prev.json  (83 页)
+NEW: site_pages.json  (83 页)
+
+新增页: 0   删除页: 0   内容变更页: 9
+
+## 内容变更（按字符数变化绝对值降序）
+
+### nexplayground.com/games/rubiks-showdown  [游戏] Rubik’s Showdown: Active Puzzle Game | Nex Playground
+字符数: 1043 -> 1555  (+512)
+  [replace]
+    - Feel Every Move Master the Cube Blitz and Memory Modes Grow With Every Solve Unlock with
+    + Feel Every Move Jump into a motion-powered challenge that gets your brain and body working together. Use both arms to twist and rotate the Cube and watch the colors fall into place.
+    + Master the Cube Every expert was once a beginner. Start with the basics and work your way up to harder challenges, one solve at a time.
+    + Blitz and Memory Modes Test your skills across two game types. Take on Blitz for a race against the clock, or challenge your recall in Memory mode.
+    + Grow With Every Solve Gain focus and problem-solving skills with each completed puzzle. Every solve is a step toward something bigger.
+
+### nexplayground.com/games/chroma-crew  [游戏] Chroma Crew: Active Skateboarding | Nex Playground
+字符数: 1821 -> 1877  (+56)
+  [insert]
+    + Rise from park rookie to playground icon in NBA Versus.
+
+### nexplayground.com/games/go-keeper  [游戏] Go Keeper: Active Soccer Game | Nex Playground
+字符数: 1836 -> 1892  (+56)
+  [insert]
+    + Rise from park rookie to playground icon in NBA Versus.
+
+### nexplayground.com/games/homerun-heroes-starstrikers  [游戏] Homerun Heroes: Starstrikers Baseball Game | Nex Playground
+字符数: 1744 -> 1800  (+56)
+  [insert]
+    + Rise from park rookie to playground icon in NBA Versus.
+
+### nexplayground.com/games/nfl-flag-heroes  [游戏] NFL FLAG Heroes on Nex Playground
+字符数: 1868 -> 1924  (+56)
+  [insert]
+    + Rise from park rookie to playground icon in NBA Versus.
+
+### nexplayground.com/games/nhl-puck-rush  [游戏] NHL Puck Rush: Active Hockey Game | Nex Playground
+字符数: 1766 -> 1822  (+56)
+  [insert]
+    + Rise from park rookie to playground icon in NBA Versus.
+
+### nexplayground.com/games/tennis-smash-racketville  [游戏] Tennis Smash: Active Tennis Game | Nex Playground
+字符数: 1684 -> 1740  (+56)
+  [insert]
+    + Rise from park rookie to playground icon in NBA Versus.
+
+### nexplayground.com/games/training-ground  [游戏] Training Ground: Youth Athletic Training Drills | Nex Playground
+字符数: 1840 -> 1896  (+56)
+  [insert]
+    + Rise from park rookie to playground icon in NBA Versus.
+
+### nexplayground.com/community  [community] Community Hub | Nex Playground
+字符数: 1407 -> 1433  (+26)
+  [replace]
+    - Stories & Resources Connected Play Events Are Now in Beta on Nex Playground
+    + Stories & Resources Introducing Connected Play Events: Friendly Competition on Your Family’s Schedule
