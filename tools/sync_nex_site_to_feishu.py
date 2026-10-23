@@ -34,7 +34,11 @@ LARK = "/Users/lizonggeng/.workbuddy/binaries/node/cli-connector-packages/bin/la
 BASE_TOKEN = "X6HgblAEIaabebsr3GQcp8qRnQg"
 TABLE_ID = "tblIXNJ1BvTYEe4y"
 ORIGIN = "https://www.nexplayground.com"
-MAX_COPY = 8000  # feishu text cell is generous; keep payload sane
+# 2026-10-23 修正：原值 8000 会静默截断 /games(10k) /play-pass(16k) /privacy(21k) 等长页。
+# 竞品的新游戏条目是「追加」在游戏列表末尾的，截断点之后的内容（如 Easy Breezy / NBA Versus /
+# Meet Your New Crew）会被整个丢掉，导致 drifted 恒为 0、新动向永远同步不上。
+# 飞书多行文本单元格远大于此，放宽到 30000 覆盖当前最长页(21,760)并留出余量。
+MAX_COPY = 30000
 
 OPTIONS = ["首页文案", "游戏目录", "产品介绍", "订阅服务", "购买页面", "用户故事", "游戏详情",
            "品牌", "法务/合规"]  # 后两项于 2026-09-25 追加，用于收纳 about/privacy 等品牌与法务页面
