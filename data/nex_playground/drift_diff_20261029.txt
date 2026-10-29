@@ -1,0 +1,156 @@
+# Nex Playground 独立站本地差分 2026-10-29 23:04
+OLD: site_pages_20261023_prev.json  (83 页)
+NEW: site_pages.json  (83 页)
+
+新增页: 0   删除页: 0   内容变更页: 18
+
+## 内容变更（按字符数变化绝对值降序）
+
+### nexplayground.com/games/training-ground  [游戏] Training Ground: Youth Athletic Training Drills | Nex Playground
+字符数: 1896 -> 1630  (-266)
+  [replace]
+    - 1 Player Sports Practice, Meet Play Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+    + 1 Player Fitness & Training Practice, Meet Play Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+  [replace]
+    - Training Ground on Nex Playground exclusively with your Play Pass Chroma Crew
+    - Transform the skatepark into your own paint-splattered canvas in Chroma Crew.
+    - Become the ultimate goal keeper in many worlds.
+    - Homerun Heroes: Starstrikers
+    - Baseball + anime-style fun = the perfect family game, for solo or multiplayer action.
+    - Rise from park rookie to playground icon in NBA Versus.
+    - NFL FLAG Heroes
+    - Become a captain, pick your plays, and lead your team to victory in NFL Flag Heroes.
+    - Choose your team, hit the ice, and rack up points to unlock exclusive NHL rewards while helping your team climb the ranks.
+    - Immerse yourself in the thrill of tennis matches against exciting and challenging opponents.
+    + Training Ground on Nex Playground exclusively with your Play Pass 2048 Arms
+    + Compete in this classic math puzzler.
+    + Get active with simple arcade games.
+    + Rise as the cosmos’ chosen defender, harnessing its power to stand against the galaxy’s darkest threats.
+    + Use natural motion to navigate the skies.
+    + Aim, release, and showcase your bullseye accuracy across various arcade mini-games in multiplayer fun with friends.
+
+### nexplayground.com/games/elmo-says  [游戏] Elmo Says: Active Family Game | Nex Playground
+字符数: 1507 -> 1672  (+165)
+  [replace]
+    - 1 to 4 players Fitness & Training Elmo says… Let’s play a game! Playful Learning with Elmo
+    + 1 to 4 players Preschool Elmo says… Let’s play a game! Playful Learning with Elmo
+  [replace]
+    - Elmo Says on Nex Playground exclusively with your Play Pass BoxFlow Fitness
+    - A serene, full-body workout experience designed to help you stay active and recharge.
+    - Family Fitness Challenge
+    - Jump, hit, kick and dodge to see how your family stacks up against the competition.
+    - Get a quick workout in with perfect form.
+    - Zumba Fitness Party
+    - Turn your workouts into a dance party in your living room!
+    - Compete in this classic math puzzler.
+    + Elmo Says on Nex Playground exclusively with your Play Pass Dora: Star Explorer
+    + Explore colorful worlds and collect stars with Dora.
+    + Elmo and Abby's Magical Letter Hunt
+    + Join Elmo and Abby on this ABC flying adventure.
+    + Gabby's Dollhouse: A-meow-zing Moves
+    + Get ready for a paw-tastic interactive experience that is sure to make you smile.
+    + Move & Groove with Grover
+    + Peppa Pig: Jump & Giggle
+    + Jump into a playdate with Peppa Pig and friends.
+    + Sesame Street's Cookie Monster’s Cookie Factory
+    + Team up and work together to solve sweet puzzles and help Cookie Monster keep the nummie, nummie treats under control!
+
+### nexplayground.com/games/chroma-crew  [游戏] Chroma Crew: Active Skateboarding | Nex Playground
+字符数: 1877 -> 1761  (-116)
+  [delete]
+    - Training Ground
+    - Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+
+### nexplayground.com/games/go-keeper  [游戏] Go Keeper: Active Soccer Game | Nex Playground
+字符数: 1892 -> 1776  (-116)
+  [delete]
+    - Training Ground
+    - Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+
+### nexplayground.com/games/homerun-heroes-starstrikers  [游戏] Homerun Heroes: Starstrikers Baseball Game | Nex Playground
+字符数: 1800 -> 1684  (-116)
+  [delete]
+    - Training Ground
+    - Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+
+### nexplayground.com/games/nfl-flag-heroes  [游戏] NFL FLAG Heroes on Nex Playground
+字符数: 1924 -> 1808  (-116)
+  [delete]
+    - Training Ground
+    - Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+
+### nexplayground.com/games/nhl-puck-rush  [游戏] NHL Puck Rush: Active Hockey Game | Nex Playground
+字符数: 1822 -> 1706  (-116)
+  [delete]
+    - Training Ground
+    - Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+
+### nexplayground.com/games/tennis-smash-racketville  [游戏] Tennis Smash: Active Tennis Game | Nex Playground
+字符数: 1740 -> 1624  (-116)
+  [delete]
+    - Training Ground
+    - Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+
+### nexplayground.com/games/dora-star-explorer  [游戏] Dora: Star Explorer Learning Game | Nex Playground
+字符数: 1159 -> 1268  (+109)
+  [replace]
+    - Dora: Star Explorer on Nex Playground exclusively with your Play Pass Elmo and Abby's Magical Letter Hunt
+    + Dora: Star Explorer on Nex Playground exclusively with your Play Pass Elmo Says
+    + Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+    + Elmo and Abby's Magical Letter Hunt
+
+### nexplayground.com/games/cookie-monster-cookie-factory  [游戏] Cookie Monster’s Cookie Factory | Nex Playground
+字符数: 1643 -> 1742  (+99)
+  [insert]
+    + Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+
+### nexplayground.com/games/elmo-abbys-magical-letter-hunt  [游戏] Elmo & Abby’s Magical Letter Hunt | Nex Playground
+字符数: 1265 -> 1364  (+99)
+  [insert]
+    + Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+
+### nexplayground.com/games/gabbys-dollhouse-a-meow-zing-moves  [游戏] Gabby’s Dollhouse: A-meow-zing Moves | Nex Playground
+字符数: 1569 -> 1668  (+99)
+  [insert]
+    + Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+
+### nexplayground.com/games/move-groove-with-grover  [游戏] Move & Groove with Grover | Nex Playground
+字符数: 1633 -> 1732  (+99)
+  [insert]
+    + Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+
+### nexplayground.com/games/peppa-pig-jump-giggle  [游戏] Peppa Pig: Jump & Giggle | Nex Playground
+字符数: 1732 -> 1831  (+99)
+  [insert]
+    + Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+
+### nexplayground.com/games/boxflow-fitness  [游戏] BoxFlow Fitness: At-Home Boxing Game | Nex Playground
+字符数: 1452 -> 1380  (-72)
+  [replace]
+    - BoxFlow Fitness on Nex Playground exclusively with your Play Pass Elmo Says
+    - Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+    - Family Fitness Challenge
+    + BoxFlow Fitness on Nex Playground exclusively with your Play Pass Family Fitness Challenge
+  [insert]
+    + Get active with simple arcade games.
+
+### nexplayground.com/games/family-fitness-challenge  [游戏] Family Fitness Challenge: Family Workout Game | Nex Playground
+字符数: 1304 -> 1242  (-62)
+  [delete]
+    - Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+  [insert]
+    + Get active with simple arcade games.
+
+### nexplayground.com/games/nexgym  [游戏] NexGym: At-Home Fitness Game | Nex Playground
+字符数: 937 -> 875  (-62)
+  [delete]
+    - Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+  [insert]
+    + Get active with simple arcade games.
+
+### nexplayground.com/games/zumba-fitness-party  [游戏] Zumba Fitness Party: Dance Workout | Nex Playground
+字符数: 1546 -> 1484  (-62)
+  [delete]
+    - Elmo says… let’s play a game! Do everything Elmo tells you to do, but only if he says 'Elmo says.'
+  [insert]
+    + Get active with simple arcade games.
