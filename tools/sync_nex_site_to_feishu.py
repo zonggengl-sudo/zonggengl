@@ -67,6 +67,10 @@ def classify(path):
         return "订阅服务", "Play Pass订阅"
     if head in ("playground", "why-playground"):
         return "产品介绍", "产品介绍"
+    # 2026-11-02 新增：竞品上线硬件周边 Nex Quiet Basketball，sitemap 出现
+    # 顶层落地页 /quiet-basketball，原规则无匹配会 skipped(no category) 漏同步。
+    if head in ("quiet-basketball",):
+        return "产品介绍", "产品介绍"
     if head in ("community",):
         return "用户故事", "用户故事"
     # 法务/合规类（2026-09-25 新增）

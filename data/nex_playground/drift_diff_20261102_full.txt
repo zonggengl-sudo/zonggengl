@@ -1,0 +1,14 @@
+# Nex Playground 独立站本地差分 2026-11-02 23:11
+OLD: site_pages_20261031_prev.json  (83 页)
+NEW: site_pages.json  (88 页)
+
+新增页: 5   删除页: 0   内容变更页: 0
+
+## 新增页面
++ nexplayground.com/games/nba-versus
++ nexplayground.com/games/pac-man-on-nex
++ nexplayground.com/games/sonic-forces-rival-rush
++ nexplayground.com/quiet-basketball
++ nexplayground.com/shop/quiet-basketball
+
+## 内容变更（按字符数变化绝对值降序）
