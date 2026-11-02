@@ -108,7 +108,8 @@ def main():
     L = []
     L.append(f"# 竞品内容版图演进分析（{date}）\n")
     L.append(f"> 基线 `{os.path.basename(OLD)}` → 当前 `{os.path.basename(NEW)}`")
-    L.append(f"> 纯本地差分，免 API Key。页面 URL 集合恒定 83 页，本文本衡量**文案改写投入**。\n")
+    L.append(f"> 纯本地差分，免 API Key。基线 {len(old)} 页 → 当前 {len(new)} 页"
+             f"（新增 {len(added)} / 下架 {len(removed)}）；本文本衡量**文案改写投入**。\n")
 
     L.append("## 1. 总量\n")
     L.append("| 指标 | 基线 | 当前 | 变化 |")
@@ -121,7 +122,7 @@ def main():
     L.append(f"| **其中：实质改写（≥{SUBSTANTIAL} 字符）** | — | — | **{len(subst)}** |")
     L.append(f"| 其中：模板级微变（<{SUBSTANTIAL} 字符） | — | — | {len(noise)} |")
     L.append("")
-    L.append(f"> ⚠️ **读法提醒**：竞品 83 个页面共用导航/页脚/促销条等模板模块，"
+    L.append(f"> ⚠️ **读法提醒**：竞品 {len(old)} 个存量页面共用导航/页脚/促销条等模板模块，"
              f"模板一改动会让全站页面同时变动 ±1~±21 字符，属**模板噪声**，不代表该页被重写。"
              f"下文所有投入判断只基于 **{len(subst)} 个实质改写页面**。\n")
 
@@ -181,8 +182,13 @@ def main():
                  f"总字符 {total_old:,} → {total_new:,}（{total_new-total_old:+,}）。")
         L.append(f"- 投入最重的类型：**{top}**，是竞品当前内容主战场。")
         L.append(f"- 另有 {len(noise)} 个页面仅发生 <{SUBSTANTIAL} 字符的模板级微变，不计入投入判断。")
-        L.append("- 页面数恒定说明竞品**不做页面扩张、只做存量页精修**——"
-                 "靠反复打磨既有页提升转化/排名，而非靠新增页覆盖长尾。")
+        if added or removed:
+            L.append(f"- 页面集合发生变化：新增 {len(added)} 页 / 下架 {len(removed)} 页，"
+                    "说明竞品在做**页面扩张（或收缩）**；需结合新增页类型判断是开新内容线、"
+                    "补授权 IP 落地页，还是上线硬件/周边。")
+        else:
+            L.append("- 页面数恒定说明竞品**不做页面扩张、只做存量页精修**——"
+                     "靠反复打磨既有页提升转化/排名，而非靠新增页覆盖长尾。")
         L.append("- 对我方启示：与其广铺页面，不如对高价值页做深度内容迭代；"
                  "竞品重投的商业化页面（订阅/购买/线下渠道）是其变现命脉，值得逐字对标。\n")
 
