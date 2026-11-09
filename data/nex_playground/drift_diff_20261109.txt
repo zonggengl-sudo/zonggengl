@@ -1,0 +1,122 @@
+# Nex Playground 独立站本地差分 2026-11-09 23:25
+OLD: site_pages_20261102_prev.json  (88 页)
+NEW: site_pages.json  (88 页)
+
+新增页: 0   删除页: 0   内容变更页: 12
+
+## 内容变更（按字符数变化绝对值降序）
+
+### nexplayground.com/play-pass  [Play Pass订阅] Nex Playground Play Pass Subscription | 60+ Active Games
+字符数: 16316 -> 17101  (+785)
+  [insert]
+    + [H3] Play Against Pepper
+    + Prepare to play a perfect game against Pepper, the inventive new character in Tennis Smash.
+    + [H3] Sweet New Levels
+    + Boost your problem-solving skills as you navigate 30 new levels (plus 5 new widgets) in the cookie factory. Nom!
+    + [H3] Join the Autumn Challenge
+    + Kick your fitness into Overdrive with NexGym’s Autumn Challenge. Finish 10 workouts to earn your badge, then keep going to collect two more.
+    + [H3] Fly High at Unicorn Academy
+    + Saddle up for new adventures: Check out the new mini-map, unlock Ava and Leaf, and take flight to Cloudreach Haven with Sophia and Wildstar.
+    + [H3] Cowboys & Country Gals
+    + The latest Starri update is here, with five country music tunes covering classic jams to current hits.
+  [replace]
+    - How much does Play Pass cost? $89 for 12 months (about $7 a month) or $49 for 3 months. One pass covers up to 2 Nex Playground consoles in your home.
+    + How much does Play Pass cost? US$89 for 12 months (about US$7 a month) or US$49 for 3 months. In Canada: CA$119 (about CA$10 a month) or CA$69. One pass covers up to 2 Nex Playground consoles in your home.
+
+### nexplayground.com/games  [游戏] Nex Playground Games | 60+ Active Family Games
+字符数: 10190 -> 10919  (+729)
+  [insert]
+    + [H3] Play Against Pepper
+    + Prepare to play a perfect game against Pepper, the inventive new character in Tennis Smash.
+    + [H3] Sweet New Levels
+    + Boost your problem-solving skills as you navigate 30 new levels (plus 5 new widgets) in the cookie factory. Nom!
+    + [H3] Join the Autumn Challenge
+    + Kick your fitness into Overdrive with NexGym’s Autumn Challenge. Finish 10 workouts to earn your badge, then keep going to collect two more.
+    + [H3] Fly High at Unicorn Academy
+    + Saddle up for new adventures: Check out the new mini-map, unlock Ava and Leaf, and take flight to Cloudreach Haven with Sophia and Wildstar.
+    + [H3] Cowboys & Country Gals
+    + The latest Starri update is here, with five country music tunes covering classic jams to current hits.
+
+### nexplayground.com/games/boxflow-fitness  [游戏] BoxFlow Fitness: At-Home Boxing Game | Nex Playground
+字符数: 1380 -> 1459  (+79)
+  [insert]
+    + Training Ground
+    + Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+  [delete]
+    - Get active with simple arcade games.
+
+### nexplayground.com/games/family-fitness-challenge  [游戏] Family Fitness Challenge: Family Workout Game | Nex Playground
+字符数: 1242 -> 1321  (+79)
+  [insert]
+    + Training Ground
+    + Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+  [delete]
+    - Get active with simple arcade games.
+
+### nexplayground.com/games/nexgym  [游戏] NexGym: At-Home Fitness Game | Nex Playground
+字符数: 875 -> 954  (+79)
+  [insert]
+    + Training Ground
+    + Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+  [delete]
+    - Get active with simple arcade games.
+
+### nexplayground.com/games/zumba-fitness-party  [游戏] Zumba Fitness Party: Dance Workout | Nex Playground
+字符数: 1484 -> 1563  (+79)
+  [insert]
+    + Training Ground
+    + Train across 40+ indoor athletic drills to level up your sports skills and compete with confidence.
+  [delete]
+    - Get active with simple arcade games.
+
+### nexplayground.com/find-in-stores  [find-in-stores] Where to find Nex Playground in stores
+字符数: 2938 -> 2994  (+56)
+  [replace]
+    - How much does Play Pass cost? $89 for 12 months (about $7 a month) or $49 for 3 months. One pass covers up to 2 Nex Playground consoles in your home.
+    + How much does Play Pass cost? US$89 for 12 months (about US$7 a month) or US$49 for 3 months. In Canada: CA$119 (about CA$10 a month) or CA$69. One pass covers up to 2 Nex Playground consoles in your home.
+
+### nexplayground.com/shop/nex-playground  [商店] Buy Nex Playground | The Active Play System for Kids and Families
+字符数: 4811 -> 4867  (+56)
+  [replace]
+    - How much does Play Pass cost? $89 for 12 months (about $7 a month) or $49 for 3 months. One pass covers up to 2 Nex Playground consoles in your home.
+    + How much does Play Pass cost? US$89 for 12 months (about US$7 a month) or US$49 for 3 months. In Canada: CA$119 (about CA$10 a month) or CA$69. One pass covers up to 2 Nex Playground consoles in your home.
+
+### nexplayground.com/shop/playpass  [商店] Buy Nex Playground Play Pass
+字符数: 3281 -> 3337  (+56)
+  [replace]
+    - How much does Play Pass cost? $89 for 12 months (about $7 a month) or $49 for 3 months. One pass covers up to 2 Nex Playground consoles in your home.
+    + How much does Play Pass cost? US$89 for 12 months (about US$7 a month) or US$49 for 3 months. In Canada: CA$119 (about CA$10 a month) or CA$69. One pass covers up to 2 Nex Playground consoles in your home.
+
+### nexplayground.com/community  [community] Community Hub | Nex Playground
+字符数: 1433 -> 1403  (-30)
+  [replace]
+    - Stories & Resources Introducing Connected Play Events: Friendly Competition on Your Family’s Schedule
+    + Stories & Resources Behind the Play: Game Designer Arron Mollet
+    + November 2, 2026
+    + Introducing Connected Play Events: Friendly Competition on Your Family’s Schedule
+  [delete]
+    - Empowering Kids, Informing Care: Nex Playground in Foster Homes
+    - April 6, 2026 | 5 min read
+
+### nexplayground.com/games/training-ground  [游戏] Training Ground: Youth Athletic Training Drills | Nex Playground
+字符数: 1630 -> 1652  (+22)
+  [replace]
+    - Training Ground on Nex Playground exclusively with your Play Pass 2048 Arms
+    + Training Ground on Nex Playground exclusively with your Play Pass BoxFlow Fitness
+    + A serene, full-body workout experience designed to help you stay active and recharge.
+    + Family Fitness Challenge
+    + Jump, hit, kick and dodge to see how your family stacks up against the competition.
+    + Get a quick workout in with perfect form.
+    + Zumba Fitness Party
+    + Turn your workouts into a dance party in your living room!
+  [delete]
+    - Get active with simple arcade games.
+    - Rise as the cosmos’ chosen defender, harnessing its power to stand against the galaxy’s darkest threats.
+    - Use natural motion to navigate the skies.
+    - Aim, release, and showcase your bullseye accuracy across various arcade mini-games in multiplayer fun with friends.
+
+### nexplayground.com/playground  [产品介绍] Why Nex Playground | The Active Play System
+字符数: 2017 -> 2036  (+19)
+  [replace]
+    - BuyFind Store Endless new ways to play. Unlocks 60+ games
+    + BuyFind Store Your golden ticket to year-round active fun. Unlocks 60+ games
