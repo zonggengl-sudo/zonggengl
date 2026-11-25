@@ -1,0 +1,109 @@
+# Nex Playground 独立站本地差分 2026-11-25 23:08
+OLD: site_pages_20261114_prev.json  (89 页)
+NEW: site_pages.json  (90 页)
+
+新增页: 1   删除页: 0   内容变更页: 9
+
+## 新增页面
++ nexplayground.com/games/starri-bts
+
+## 内容变更（按字符数变化绝对值降序）
+
+### nexplayground.com/refund  [refund] Refund Policy
+字符数: 14476 -> 12068  (-2408)
+  [delete]
+    - (a) You have statutory rights as a consumer under the Consumer Rights Act 2015 and the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013, and other applicable consumer legislation. Th
+    - (b) Your key statutory rights include:
+  [delete]
+    - (c) The voluntary warranty provided by Nex (see the One-Year Limited Warranty for Playground) is separate from and in addition to these statutory rights."
+  [delete]
+    - (a) Gift cards cannot be returned.
+    - (b) You have a statutory 14-day right to cancel a purchase of digital content (including software, game purchases, downloadable content and other digital purchases). This right can only be lost if, before supply begins, 
+    - (c) Your statutory cancellation rights in respect of Play Pass are set out in the UK Annex to the Play Pass Terms and Conditions. The 14-day refund for first-time Play Pass purchases referred to in this policy is a volun
+  [delete]
+    - (a) You may use the model cancellation form available at nex.fun/cancel to inform us that you are exercising your right to cancel. Alternatively, you may send a clear statement by email to hello@nexplayground.com or by p
+    - (b) The cancellation period begins on the day after you (or a person nominated by you) receive the goods.
+    - (c) If you cancel, you must return the goods to us without undue delay and in any event within 14 days of notifying us of your cancellation. You will bear the direct cost of returning the goods unless we have agreed to b
+    - (d) We will reimburse all payments received from you (including the cost of standard delivery) without undue delay and in any event within 14 days of the day on which we receive the returned goods or you provide evidence
+    - (e) Your right to cancel is not conditional on the goods being returned in their original packaging, although we request that you do so where possible."
+  [replace]
+    - The EU Annex is complemented by Appendices addressing statutory requirements under particular EU/EEA member state laws ("Country Appendix/Appendices"), namely Germany and the Republic of Ireland. In case of any conflict 
+    + The EU Annex is complemented by Appendices addressing statutory requirements under particular EU/EEA member state laws ("Country Appendix/Appendices"), namely the Republic of Ireland. In case of any conflict between prov
+  [replace]
+    - “For clarification: If you exercise your right to withdraw, Nex will reimburse all payments received from you, including the costs of delivery (except for supplementary costs if you chose a type of delivery other than th
+    + “For clarification: If you exercise your right to withdraw, Nex will reimburse all payments received from you, including the costs of delivery (except for supplementary costs if you chose a type of delivery other than th
+
+### nexplayground.com/games  [游戏] Nex Playground Games | 60+ Active Family Games
+字符数: 10925 -> 11294  (+369)
+  [delete]
+    - [H3] Shake Up Your Flow
+    - Break a sweat with four new coached workouts featuring Rock, Country, K-Pop, and Latin EDM.
+  [insert]
+    + [H3] Shake Up Your Flow
+    + Break a sweat with four new coached workouts featuring Rock, Country, K-Pop, and Latin EDM.
+  [insert]
+    + [H3] Starri BTS
+    + Get glowing with Starri + BTS in this immersive, rhythm-based concert experience.
+    + [H3] Your Mood Boost Is Here
+    + Shake off the day with 14 feel-good songs in Mood Boost, the newest 50-minute Zumba® class led by instructor Gina Wonder.
+    + [H3] Defrost and Dance
+    + Big holiday news: Mariah Carey’s “All I Want for Christmas is You” is now on Barbie Dance Party.
+
+### nexplayground.com/play-pass  [Play Pass订阅] Nex Playground Play Pass Subscription | 60+ Active Games
+字符数: 17107 -> 17465  (+358)
+  [delete]
+    - [H3] Shake Up Your Flow
+    - Break a sweat with four new coached workouts featuring Rock, Country, K-Pop, and Latin EDM.
+  [insert]
+    + [H3] Shake Up Your Flow
+    + Break a sweat with four new coached workouts featuring Rock, Country, K-Pop, and Latin EDM.
+  [insert]
+    + [H3] Starri BTS
+    + Get glowing with Starri + BTS in this immersive, rhythm-based concert experience.
+    + [H3] Your Mood Boost Is Here
+    + Shake off the day with 14 feel-good songs in Mood Boost, the newest 50-minute Zumba® class led by instructor Gina Wonder.
+    + [H3] Defrost and Dance
+    + Big holiday news: Mariah Carey’s “All I Want for Christmas is You” is now on Barbie Dance Party.
+  [replace]
+    - No Ads, ever 2. High-quality, highly curated games 3. Always kid-safe and family-friendly 4. Designed with kid-experts Your golden ticket to endless active fun. 0:55 Meet Nex Playground
+    + No Ads, ever 2. High-quality, highly curated games 3. Always kid-safe and family-friendly 4. Designed with kid-experts Your golden ticket to endless active fun. :60 Play Pass
+
+### nexplayground.com/shop/nex-playground  [商店] Buy Nex Playground | The Active Play System for Kids and Families
+字符数: 4873 -> 4983  (+110)
+  [replace]
+    - Product Specs Wide-angle cameraNex AI-powered motion engineArm Cortex A-Series SoCPlayOSHDMI TV connection (cable included)WiFiBluetooth 5.0Eco friendly packaging IN THE BOX
+    + Product Specs Wide-angle cameraNex AI-powered motion engineArm Cortex A-Series SoCPlayOSHDMI TV connection (cable included)WiFiBluetooth 5.0Eco friendly packaging Tips for Gifting Nex Playground Giving the gift of Nex Pl
+
+### nexplayground.com/games/barbie-dance-party  [游戏] Barbie Dance Party: Active Dance Game | Nex Playground
+字符数: 1330 -> 1438  (+108)
+  [insert]
+    + Starri | BTS - Immersive, rhythm-based dance game on Nex Playground
+    + Get glowing with Starri + BTS in this immersive, rhythm-based concert experience.
+  [delete]
+    - Use natural motion to navigate the skies.
+
+### nexplayground.com/games/starri  [游戏] Starri: Active Rhythm Game | Nex Playground
+字符数: 1579 -> 1687  (+108)
+  [insert]
+    + Starri | BTS - Immersive, rhythm-based dance game on Nex Playground
+    + Get glowing with Starri + BTS in this immersive, rhythm-based concert experience.
+  [delete]
+    - Use natural motion to navigate the skies.
+
+### nexplayground.com/trust  [trust] Trust Center | Nex
+字符数: 1188 -> 1259  (+71)
+  [insert]
+    + How To Spot Fake Nex Playground Websites and Sellers
+    + November 19, 2026
+
+### nexplayground.com  [首页文案] Nex Playground | The Active Play System for Kids and Families
+字符数: 1663 -> 1643  (-20)
+  [replace]
+    - BuyFind Store Meet Nex Playground 0:55 Meet Nex Playground
+    + BuyFind Store 0:55 Meet Nex Playground
+
+### nexplayground.com/shop/playground-rcu-case  [商店] Nex Playground | Remote Control Case
+字符数: 1186 -> 1197  (+11)
+  [replace]
+    - BUY Shipping & Delivery Estimated delivery time is 3 business days (Express Shipping) and 6 business days (Standard Shipping).We only ship to addresses in the United States at the moment.Change your mind? Enjoy hassle-fr
+    + BUY Shipping & Delivery Estimated delivery time is 3 business days (Express Shipping) and 6 business days (Standard Shipping).We only ship to addresses in the United States and Canada at the moment.Change your mind? Enjo
