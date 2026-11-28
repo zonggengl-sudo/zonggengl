@@ -1,0 +1,10 @@
+新增=0 删除=0 变更=5 实质改写=0
+=== 全部变更页 delta 列表 ===
+    -1  https://www.nexplayground.com/games/arrow-party
+    -1  https://www.nexplayground.com/games/basketball-knockout
+    -1  https://www.nexplayground.com/games/bowling-strike
+    -1  https://www.nexplayground.com/games/dude-perfect-trickshot-challenge
+    -1  https://www.nexplayground.com/games/whac-a-mole-on-nex-playground
+
+=== 实质改写逐段 diff（新增文案片段）===
+
